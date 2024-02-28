@@ -2,7 +2,7 @@
   "name": "sitio-cardinal",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://fenix1208.github.io/Cardinal-de-DyX/",
+  "homepage":"https://fenix1208.github.io/Cardinal-de-DyX",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
