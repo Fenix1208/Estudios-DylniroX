@@ -1,0 +1,45 @@
+/* TopMenu.css */
+
+.top-menu {
+  position: fixed;
+  align-items: center;
+  margin-top: 10px;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.menu-options {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 1%;
+}
+
+.menu-options li {
+  margin-right: 40px; /* Ajusta este valor según tu preferencia */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-options li:hover {
+  background-color: #ffffff;
+}
+
+.btnOPC {
+  background: transparent;
+  border-style: none;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.btnOPC:hover {
+  background-color: #f0f0f06b; /* Cambia el color al pasar el cursor */
+}

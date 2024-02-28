@@ -1,0 +1,48 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding-left: 0px; /* Espacio a la izquierda */
+  }
+
+  .contenedor-encabezado{
+    margin-bottom: 20px;
+  }
+
+  .encabezado-parrafo{
+    text-align: center;
+  }
+
+  .btn-Notas{
+    background: transparent;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .btn-Notas:hover{
+    background: #C8C8C8;
+  }
+
+  /* Element */
+
+  .content-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-y: hidden; /* Oculta el contenido al principio */
+    max-height: calc(90vh - 40px); /* Resta el espacio de padding */
+  }
+
+  .h1-element{
+    font-size: 18px;
+  }
+  
+  .p-element{
+    text-align: justify;
+  }
+  

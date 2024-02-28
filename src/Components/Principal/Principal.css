@@ -1,0 +1,26 @@
+/* MainPage.css */
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding-left: 0px; /* Espacio a la izquierda */
+  }
+  
+  .main-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .sub-text {
+    font-size: 16px;
+    opacity: 0.7; /* Texto más pequeño y ligeramente opaco */
+    transition: opacity 0.3s ease; /* Transición suave al pasar el cursor */
+  }
+  
+  .sub-text:hover {
+    opacity: 1; /* Vuelve a ser sólido al pasar el cursor */
+  }
+  

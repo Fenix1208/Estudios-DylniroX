@@ -1,0 +1,53 @@
+.main-page-familia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+
+.seccion-encabezado {
+    top: 0;
+}
+
+.parrafo-familia{
+  text-align: center;
+}
+
+.contenedor-informacion {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.contenedor-inf-DyX{
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 4%;
+  row-gap: 4%;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.contenedor-inf-DyXdos{
+  border-radius: 10px;
+  padding: 2%;
+  margin: 5px;
+  /*box-shadow: inset 5px 5px 15px gray; SOMBRA INTERIOR */
+}
+
+.encabezado-elegante {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 20px;
+  color: black; /* Blanco o tu color preferido */
+  letter-spacing: 1px; /* Espaciado entre letras */
+  margin-top: 2%;
+}
+
+.encabezado-elegante span {
+  font-weight: bold; /* Resalta las palabras "C#" y "SQL Server" */
+}
+
+.parrafo-informacion {
+  text-align: justify;
+}

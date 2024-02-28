@@ -1,0 +1,68 @@
+.muestrario-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0px; /* Espacio a la izquierda */
+}
+
+.encabezados-container {
+  top: 0;
+}
+
+.Encabezado {
+  margin-top: 100px;
+}
+
+.Sub-encabezado {
+  font-size: 16px;
+  color: #888;
+}
+
+.Encabezado,
+.Sub-encabezado {
+  margin-bottom: 0; /* Elimina el margen inferior */
+  text-align: center;
+}
+
+.encabezado-elegante {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black; /* Blanco o tu color preferido */
+  text-align: left;
+  letter-spacing: 1px; /* Espaciado entre letras */
+  margin-top: 2%;
+}
+
+.encabezado-elegante span {
+  font-weight: bold; /* Resalta las palabras "C#" y "SQL Server" */
+}
+
+/*  */
+
+.contenedor-muestrario {
+  margin: 20px;
+  margin-top: 80px;
+}
+
+.contenedor-app {
+  display: flex;
+  flex-wrap: wrap; /* Ajusta automáticamente los elementos cuando no hay suficiente espacio */
+  justify-content: left; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  /* Agrega otros estilos según tus necesidades */
+}
+
+
+@media (max-width: 600px) {
+  .muestrario-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0; /* Elimina el espacio a la izquierda */
+    margin: 10px;
+  }
+}

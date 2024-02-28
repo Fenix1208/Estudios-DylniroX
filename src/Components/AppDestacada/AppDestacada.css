@@ -1,0 +1,39 @@
+.contenedor-destacado {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.izquierda {
+  flex: 1; /* Ocupa el espacio disponible */
+  padding: 20px; /* Añade espaciado alrededor del texto */
+  text-align: center;
+  align-items: center;
+  margin-left: 4%;
+}
+
+.derecha {
+  flex: 1; /* Ocupa el espacio disponible */
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.destacado-imagen {
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 90% /* Ocupa el 50% del ancho de la pantalla */
+}
+
+.parrafo-destacado {
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .contenedor-destacado {
+    flex-direction: column;
+  };
+
+}

@@ -1,0 +1,73 @@
+
+.encabezados-container{
+position: fixed;
+top: 0;
+}
+
+.Encabezado{
+    margin-top: 100px;
+}
+
+  .Sub-encabezado {
+    font-size: 16px;
+    color: #888;
+  }
+
+.Encabezado,
+.Sub-encabezado {
+  margin-bottom: 0; /* Elimina el margen inferior */
+  text-align: center;
+}
+
+/* Diseños de las apps inferiores */
+
+/* BancoProyectos.css */
+
+/* Estilos para el contenedor principal */
+.banco-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding-left: 0px; /* Espacio a la izquierda */
+  }
+  
+  /* Estilos para los cuadros */
+  .cuadros-container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .cuadro {
+    width: 150px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el texto dentro de los cuadros */
+  .cuadro h1 {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Estilos para el botón "Ver más" */
+  .boton {
+    margin-top: 20px;
+    background-color: #0074d9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  

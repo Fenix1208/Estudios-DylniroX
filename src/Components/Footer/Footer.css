@@ -1,0 +1,14 @@
+.contenedor-footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    margin: 20px;
+    color: gray;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.contenedor-footer:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+}

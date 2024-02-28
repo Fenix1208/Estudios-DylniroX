@@ -1,0 +1,26 @@
+/* Estilos para el contenedor de texto */
+.contenedor-texto {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  height: 80%;
+  width: 90%;
+}
+
+/* Estilos para el encabezado */
+.encabezado-app {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estilos para el párrafo */
+.parrafo-app {
+  font-size: 16px;
+}
+
+/* Estilos para la descripción */
+.descripcion-app {
+  font-size: 14px;
+}
+
+
