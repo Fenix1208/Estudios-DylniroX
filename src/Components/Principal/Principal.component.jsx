@@ -22,7 +22,7 @@ const Principal = () => {
 
   return (
     <div
-      className="main-page"
+      className="main-page-principal"
       style={{
         backgroundImage: "url(/FondoCDWeb.png)",
         backgroundSize: "cover",
