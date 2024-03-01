@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Estudios-DylniroX/static/css/main.4d5ecbb7.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.78987741.js",
+    "main.js": "/Estudios-DylniroX/static/js/main.970df14a.js",
     "static/js/453.5e5b22c8.chunk.js": "/Estudios-DylniroX/static/js/453.5e5b22c8.chunk.js",
+    "static/media/FondoCDWeb.png": "/Estudios-DylniroX/static/media/FondoCDWeb.131652f425178ccf0ba4.png",
     "static/media/OTSWeb.png": "/Estudios-DylniroX/static/media/OTSWeb.52633bcf3058014b9e3d.png",
     "static/media/OTclasic.png": "/Estudios-DylniroX/static/media/OTclasic.65fb6ec4f002d27acd90.png",
     "static/media/KSWeb.png": "/Estudios-DylniroX/static/media/KSWeb.f27cdd62282b207d2f9d.png",
@@ -11,11 +12,11 @@
     "static/media/LirixStoreWebtwo.png": "/Estudios-DylniroX/static/media/LirixStoreWebtwo.7bc481bb26943963f2e6.png",
     "index.html": "/Estudios-DylniroX/index.html",
     "main.4d5ecbb7.css.map": "/Estudios-DylniroX/static/css/main.4d5ecbb7.css.map",
-    "main.78987741.js.map": "/Estudios-DylniroX/static/js/main.78987741.js.map",
+    "main.970df14a.js.map": "/Estudios-DylniroX/static/js/main.970df14a.js.map",
     "453.5e5b22c8.chunk.js.map": "/Estudios-DylniroX/static/js/453.5e5b22c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d5ecbb7.css",
-    "static/js/main.78987741.js"
+    "static/js/main.970df14a.js"
   ]
 }
