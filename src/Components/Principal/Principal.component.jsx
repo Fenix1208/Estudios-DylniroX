@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Principal.css";
+import background from '../Img/FondoCDWeb.png';
 
 const Principal = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -8,7 +9,7 @@ const Principal = () => {
     "DylniroX Software™",
     "DylniroX Video™",
     "DylniroX Desing™",
-  ]; // Agrega los textos que quieras rotar
+  ];
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -21,10 +22,9 @@ const Principal = () => {
   }, []);
 
   return (
-    <div
-      className="main-page-principal"
+    <div className="main-page-principal"
       style={{
-        backgroundImage: "url(/FondoCDWeb.png)",
+        backgroundImage: `url(${background})`, // Use the imported variable
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
