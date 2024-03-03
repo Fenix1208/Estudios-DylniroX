@@ -25,7 +25,7 @@ const Principal = () => {
     <div className="main-page-principal"
       style={{
         backgroundImage: `url(${background})`, // Use the imported variable
-        backgroundSize: "cover",
+        backgroundSize: "Cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}

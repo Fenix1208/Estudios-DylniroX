@@ -1,3 +1,7 @@
+.contenedor-general-apps{
+  margin: 2px;
+}
+
 /* Estilos para el contenedor de texto */
 .contenedor-texto {
   background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */

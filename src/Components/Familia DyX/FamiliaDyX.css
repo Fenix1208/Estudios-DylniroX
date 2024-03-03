@@ -17,14 +17,14 @@
 }
 
 .contenedor-informacion {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .contenedor-inf-DyX{
   border-radius: 10px;
   padding: 2%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   row-gap: 4%;
   box-shadow: 5px 5px 15px gray;
 }
@@ -50,4 +50,19 @@
 
 .parrafo-informacion {
   text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .main-page-familia {
+    margin-top: 20%;
+  }
+
+  .contenedor-informacion {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .contenedor-inf-DyX{
+    margin-bottom: 6%;
+  }
 }

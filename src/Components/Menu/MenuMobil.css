@@ -1,0 +1,43 @@
+/* MenuMobil.css */
+
+.top-menu-mobil {
+    position: fixed;
+    align-items: center;
+    margin-top: 10px;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .menu-options-mobil {
+    list-style: none;
+    padding: 0;
+    margin: 1%;
+  }
+  
+  .menu-options-mobil li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-options-mobil li:hover {
+    background-color: #ffffff;
+  }
+  
+  .btnOPC {
+    background: transparent;
+    border-style: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .btnOPC:hover {
+    background-color: #f0f0f06b;
+  }
+  

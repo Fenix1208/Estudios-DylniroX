@@ -20,7 +20,9 @@ const Aplicacion = (props) => {
         style={{
           borderRadius: "10px", // Redondear la imagen
           boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)", // Sombra oscura
-          margin: "1px", // Separación de 2px
+          margin: "1px",
+          width: "100%",
+          height: "Auto",
         }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -36,7 +38,7 @@ const Aplicacion = (props) => {
           transform: "translate(-50%, -50%)",
           textAlign: "center",
           color: "white",
-          
+          overflow: "auto",
         }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

@@ -1,0 +1,26 @@
+.contain-contenido-noticias{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.encabezado-elegante-Noticias {
+    font-family: 'Comic Sans MS', cursive;
+    text-align: left;
+    font-size: 18px;
+    color: black; /* Blanco o tu color preferido */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    margin-left: 2%;
+  }
+
+  .fecha-contenido-noticias{
+    margin-right: 2%;
+    text-align: right;
+  }
+
+  .parrafo-contenido-noticias{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+  }

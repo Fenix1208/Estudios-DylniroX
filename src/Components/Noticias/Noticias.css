@@ -1,0 +1,29 @@
+.noticias-container{
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.img-noticias{
+    border-radius: 10px;
+    height: Auto;
+    width: 80%;
+}
+
+.Noticias-encabezado{
+    font-size: 20px;
+    text-align: left;
+    margin: 2%;
+}
+
+@media (max-width: 600px) {
+    .noticias-container {
+        margin-top: 20%;
+    }
+
+    .img-noticias{
+        width: 95%;
+    }
+    
+  }
