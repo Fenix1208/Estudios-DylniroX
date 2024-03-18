@@ -5,8 +5,8 @@ import "./Informacion.css";
 const Informacion = () => {
   const [textIndex, setTextIndex] = useState(0);
   const texts = [
-    "Estamos trabajando en este sitio y migrando informacion a el...",
-    "Tu pasiencia y retroalimentacion son de gran valor.",
+    "Estamos trabajando en este sitio y migrando información a el...",
+    "Tu paciencia y retroalimentación son de gran valor.",
     "Mientras aguardamos, miremos estrellas juntos...",
   ];
 

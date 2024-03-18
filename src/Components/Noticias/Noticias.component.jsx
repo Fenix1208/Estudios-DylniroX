@@ -8,8 +8,10 @@ import N1 from "../Noticias Img/BannerCardinal.png";
 import N2 from "../Noticias Img/PromocionApps.png";
 import N3 from "../Noticias Img/PromocionMaya.png";
 import N4 from "../Noticias Img/Banners.png";
+import N5 from "../Noticias Img/cardinalDyX1_4.png";
 
 const images = [
+  N5,
   N1,
   N2,
   N3,
@@ -24,7 +26,7 @@ const Noticias = () => {
     // Cambia la imagen cada 6 segundos
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 8000);
+    }, 10000);
 
     return () => {
       clearInterval(interval);
@@ -52,8 +54,26 @@ const Noticias = () => {
       </div>
       <div>
       <h1 className='Noticias-encabezado'>Difusión</h1>
+      <ContenidoNoticia
+        encabezado="Cardinal de DyX | WEB: Versión 1.4"
+        fecha="18/03/2024"
+        contenido={
+            "Nuevos cambios llegaron.\n" +
+            "Con esta actualización, hemos agregado al muestrario nuevas previsualizaciones de algunas de nuestras aplicaciones y realizado correcciones en textos e imágenes.\n\n"+
+            
+            "Corrección Ortográfica:\n"+
+            "Hemos realizado correcciones ortográficas en algunas secciones de la página, así como en algunas imágenes.\n\n"+
+            
+            "Muestrario:\n"+
+            "Hemos recibido un nuevo banco de sistemas que ahora podrás previsualizar en el muestrario, mientras seguimos agregando más sistemas con el tiempo. También hemos agregado etiquetas sobre aquellos sistemas que han sido desarrollados en colaboración con otros compañeros. \n\n"+
+            
+            "Cambios en la adaptación a pantallas:\n"+
+            "Hemos alineado los cuadros de información de la sección de “Familia DyX” en dispositivo móviles. \n\n"+
+            
+            "Con estos cambios, presentamos la versión 1.4 de Cardinal de Dylnirox. ¡Gracias por tu tiempo y retroalimentación,  esperamos que disfrutes de las mejoras!"
+          }/>
         <ContenidoNoticia
-        encabezado="Cardinal de DyX | WEB: Version 1.3"
+        encabezado="Cardinal de DyX | WEB: Versión 1.3"
         fecha="02/03/2024"
         contenido={
             "Una nueva actualización llega a Cardinal de Dylnirox.\n" +
