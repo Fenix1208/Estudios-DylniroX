@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Estudios-DylniroX/static/css/main.c1771484.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.f9f80c4e.js",
+    "main.css": "/Estudios-DylniroX/static/css/main.fed4af09.css",
+    "main.js": "/Estudios-DylniroX/static/js/main.4ac0b8fd.js",
     "static/js/453.5e5b22c8.chunk.js": "/Estudios-DylniroX/static/js/453.5e5b22c8.chunk.js",
-    "static/media/Banners.png": "/Estudios-DylniroX/static/media/Banners.78b8460e80148bb3335d.png",
+    "static/media/Banners.png": "/Estudios-DylniroX/static/media/Banners.d5e5f3642623444b763e.png",
     "static/media/FondoCDWeb.png": "/Estudios-DylniroX/static/media/FondoCDWeb.131652f425178ccf0ba4.png",
     "static/media/PromocionMaya.png": "/Estudios-DylniroX/static/media/PromocionMaya.06289bb154d8ed96fa02.png",
     "static/media/OTSWeb.png": "/Estudios-DylniroX/static/media/OTSWeb.52633bcf3058014b9e3d.png",
@@ -11,16 +11,20 @@
     "static/media/KSWeb.png": "/Estudios-DylniroX/static/media/KSWeb.f27cdd62282b207d2f9d.png",
     "static/media/CardinaldeDyXAppDesc.png": "/Estudios-DylniroX/static/media/CardinaldeDyXAppDesc.04be53895dd2469c2ae5.png",
     "static/media/BannerCardinal.png": "/Estudios-DylniroX/static/media/BannerCardinal.166343c1f45ed36d82f2.png",
-    "static/media/KIWeb.png": "/Estudios-DylniroX/static/media/KIWeb.9ee1e1f3601ebe1ab265.png",
-    "static/media/LirixStoreWebtwo.png": "/Estudios-DylniroX/static/media/LirixStoreWebtwo.7bc481bb26943963f2e6.png",
+    "static/media/cardinalDyX1_4.png": "/Estudios-DylniroX/static/media/cardinalDyX1_4.89df5a5a53c3b9aa0dac.png",
+    "static/media/KIWeb.png": "/Estudios-DylniroX/static/media/KIWeb.c329970adc7b144af6c7.png",
+    "static/media/LaEstafaFelizWEB.png": "/Estudios-DylniroX/static/media/LaEstafaFelizWEB.a849562e73d68218c37b.png",
+    "static/media/LirixStoreWebtwo.png": "/Estudios-DylniroX/static/media/LirixStoreWebtwo.ab04a12e356a46b63214.png",
     "static/media/PromocionApps.png": "/Estudios-DylniroX/static/media/PromocionApps.49a3c3150cfc03469042.png",
+    "static/media/RiverWEB.png": "/Estudios-DylniroX/static/media/RiverWEB.818b3ebd6cbba28c38de.png",
+    "static/media/EvaWEB.png": "/Estudios-DylniroX/static/media/EvaWEB.d58b0894bebbbf56f5c5.png",
     "index.html": "/Estudios-DylniroX/index.html",
-    "main.c1771484.css.map": "/Estudios-DylniroX/static/css/main.c1771484.css.map",
-    "main.f9f80c4e.js.map": "/Estudios-DylniroX/static/js/main.f9f80c4e.js.map",
+    "main.fed4af09.css.map": "/Estudios-DylniroX/static/css/main.fed4af09.css.map",
+    "main.4ac0b8fd.js.map": "/Estudios-DylniroX/static/js/main.4ac0b8fd.js.map",
     "453.5e5b22c8.chunk.js.map": "/Estudios-DylniroX/static/js/453.5e5b22c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1771484.css",
-    "static/js/main.f9f80c4e.js"
+    "static/css/main.fed4af09.css",
+    "static/js/main.4ac0b8fd.js"
   ]
 }
