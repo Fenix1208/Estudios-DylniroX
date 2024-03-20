@@ -24,7 +24,7 @@ const Principal = () => {
   return (
     <div className="main-page-principal"
       style={{
-        backgroundImage: `url(${background})`, // Use the imported variable
+        backgroundImage: `url(${background})`, 
         backgroundSize: "Cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",

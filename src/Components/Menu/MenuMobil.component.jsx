@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './MenuMobil.css'; // Importa tus estilos CSS
+import './MenuMobil.css'; 
 
 function MenuMobil({ onPageChange }) {
   const [showMenu, setShowMenu] = useState(false);

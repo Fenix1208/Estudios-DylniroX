@@ -1,7 +1,7 @@
 // Noticias.js
 
 import React, { useState, useEffect } from 'react';
-import './Noticias.css'; // Importa tus estilos CSS
+import './Noticias.css';
 import ContenidoNoticia from './ContenidoNoticia.component';
 
 import N1 from "../Noticias Img/BannerCardinal.png";

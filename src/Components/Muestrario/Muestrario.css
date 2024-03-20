@@ -29,7 +29,7 @@
 .encabezado-elegante {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  color: black; /* Blanco o tu color preferido */
+  color: black;
   text-align: left;
   letter-spacing: 1px; /* Espaciado entre letras */
   margin-top: 2%;
@@ -39,8 +39,6 @@
   font-weight: bold; /* Resalta las palabras "C#" y "SQL Server" */
 }
 
-/*  */
-
 .contenedor-muestrario {
   margin: 10px;
   margin-top: 80px;
@@ -49,9 +47,8 @@
 .contenedor-app {
   display: flex;
   flex-wrap: wrap; /* Ajusta automáticamente los elementos cuando no hay suficiente espacio */
-  justify-content: left; /* Centra horizontalmente los elementos */
-  align-items: center; /* Centra verticalmente los elementos */
-  /* Agrega otros estilos según tus necesidades */
+  justify-content: left; 
+  align-items: center; 
 }
 
 

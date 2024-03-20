@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Img/PF1.png"; // Asegúrate de que la ruta a tu imagen sea correcta
+import "../Img/PF1.png";
 import "./BancoProyectos.css";
 
 const Banco = () => {
@@ -44,7 +44,7 @@ const Banco = () => {
           <div
             key={proyecto}
             className="cuadro"
-            onClick={() => handleBackgroundChange(images[proyecto])} // Cambio aquí
+            onClick={() => handleBackgroundChange(images[proyecto])} 
           >
             <h1>{generateRandomText()}</h1>
           </div>

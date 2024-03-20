@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Aplicacion.css"; // Asegúrate de que esta importación sea correcta
+import "./Aplicacion.css";
 
 const Aplicacion = (props) => {
   const [showText, setShowText] = useState(false);

@@ -27,7 +27,6 @@ const Informacion = () => {
         <p className="encabezado-parrafo">{texts[textIndex]}</p>
       </div>
 
-      {/* Agrega más contenido aquí */}
       <Element name="contenido">
         <div className="content-container">
           <h1 className="h1-element">Información del Sitio.</h1>

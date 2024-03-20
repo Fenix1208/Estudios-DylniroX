@@ -21,9 +21,8 @@ top: 0;
 
 /* Diseños de las apps inferiores */
 
-/* BancoProyectos.css */
-
 /* Estilos para el contenedor principal */
+
 .banco-container {
     display: flex;
     flex-direction: column;
@@ -34,6 +33,7 @@ top: 0;
   }
   
   /* Estilos para los cuadros */
+
   .cuadros-container {
     display: flex;
     position: fixed;
@@ -54,12 +54,14 @@ top: 0;
   }
   
   /* Estilos para el texto dentro de los cuadros */
+
   .cuadro h1 {
     font-size: 14px;
     color: #333;
   }
   
   /* Estilos para el botón "Ver más" */
+  
   .boton {
     margin-top: 20px;
     background-color: #0074d9;
