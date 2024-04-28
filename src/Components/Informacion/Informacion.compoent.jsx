@@ -43,7 +43,7 @@ const Informacion = () => {
           </p>
           <h1 className="h1-element">¿Escritorio y Web? </h1>
           <p className="p-element">
-            Nuestro enfoque de desarrollo se centra en la interfaz de usuario
+            "Nuestro enfoque de desarrollo se centra en la interfaz de usuario
             (UI) y la experiencia del usuario (UX) en entornos de escritorio
             para Windows. Actualmente, no tenemos un enfoque específico
             destinado al desarrollo web."

@@ -39,4 +39,23 @@
   .btnOPC:hover {
     background-color: #f0f0f06b;
   }
+
+  .btnOPCG {
+    border-style: none;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 5px;
+    color: transparent;
+    background: linear-gradient(to right, #0000ff, #232323);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .btnOPCG:hover {
+    background: linear-gradient(to right, red, #1E78CE);
+    background-clip: text;
+  }
   

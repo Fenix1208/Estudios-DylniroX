@@ -8,7 +8,7 @@ import N1 from "../Noticias Img/BannerCardinal.png";
 import N2 from "../Noticias Img/PromocionApps.png";
 import N3 from "../Noticias Img/PromocionMaya.png";
 import N4 from "../Noticias Img/Banners.png";
-import N5 from "../Noticias Img/cardinalDyX1_4.png";
+import N5 from "../Noticias Img/EventoLirix.png";
 
 const images = [
   N5,
@@ -54,6 +54,25 @@ const Noticias = () => {
       </div>
       <div>
       <h1 className='Noticias-encabezado'>Difusión</h1>
+      <ContenidoNoticia
+        encabezado="Cardinal de DyX | WEB: Versión 1.5.1"
+        fecha="00/03/2024"
+        contenido={
+            "Nueva Sección: Eventos\n" +
+            "Bienvenidos a la sección de eventos, donde encontrarás acontecimientos que están ocurriendo en este momento o están por suceder. Estos eventos están diseñados para interactuar con los usuarios de DyX.\n\n"+
+            
+            "¿Qué tipos de eventos participan?\n"+
+            "Liberación de Sistemas en Fase BETA: Aquí incluimos demos o pruebas de sistemas que están a punto de ser lanzados. También abarcamos aquellos sistemas que ya están en proceso de lanzamiento y queremos ofrecer beneficios adicionales a quienes los adquieran desde el primer momento.\n\n"+
+            
+            "¿Qué evento está activo hoy?\n"+
+            "Hoy, te presentamos el evento de Lirix™, la tienda de aplicaciones desarrollada por DylniroX Software™ y Azulados y Asociados Corp. ¡Descubre de qué se trata y echa un vistazo a la sección! \n\n"+
+            
+            "Cambios en la adaptación a pantallas:\n"+
+            "Corregimos un error de redimensión para dispositivos móviles de la sección “Información del sitio”.  \n\n"+
+            "Se ajustó la marca de agua del estudio que aparece en la aparte inferior de cada ventana. \n\n"+
+
+            "Por el momento, estos son los cambios que han llegado ¡Gracias por tu tiempo y retroalimentación,  esperamos que disfrutes de las mejoras!"
+          }/>
       <ContenidoNoticia
         encabezado="Cardinal de DyX | WEB: Versión 1.4"
         fecha="18/03/2024"

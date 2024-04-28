@@ -1,0 +1,298 @@
+.main-page-evento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #0b0b0b, #030303);
+}
+
+.encabezadoPrincipal-evento {
+  position: relative;
+  color: transparent;
+  background: linear-gradient(to right, #0000ff, #ececec);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+/* Seccion 1 evento */
+
+.seccion1-evento {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  padding: 0 40px; /* Añade un poco de espacio en los lados para evitar que el contenido toque los bordes de la pantalla */
+}
+
+.seccion1-1-evento {
+  flex: 1; /* Asegura que el contenedor de la imagen ocupe la mitad del espacio */
+  max-width: 50%; /* Limita el ancho de la imagen al 50% de la pantalla */
+}
+
+.image-Evento {
+  width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+  height: auto;
+}
+
+.seccion1-2-evento {
+  flex: 1; /* Asegura que el contenedor del texto ocupe la mitad del espacio */
+  max-width: 50%; /* Limita el ancho del texto al 50% de la pantalla */
+  margin-left: 2%;
+}
+
+.encabezado1-evento,
+.encabezado2-evento,
+.encabezado3-evento {
+  position: relative;
+  color: transparent;
+  background: linear-gradient(to right, #0000ff, #ececec);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.encabezado1-evento:hover,
+.encabezado2-evento:hover {
+  animation: iluminar 1s infinite;
+}
+
+@keyframes iluminar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.parrado1-evento {
+  color: #6e6e6e;
+  margin: 0; /* Elimina cualquier margen por defecto */
+}
+
+/* Seccion de cuadros */
+
+.contenedor-cuadros {
+  display: flex;
+  justify-content: space-around; /* Distribuye los cuadros uniformemente */
+  padding: 20px;
+}
+
+.cuadro {
+  width: 30%; /* Ajusta el ancho de cada cuadro */
+  background: linear-gradient(to bottom, #232323, #0b0b0b);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Añade una sombra */
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 20px;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.cuadro h1 {
+  color: transparent;
+  background: linear-gradient(to right, #e43e30, #1e78ce);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  overflow: hidden;
+}
+
+.cuadro p {
+  margin-top: 20px;
+  color: white;
+}
+
+/* Seccion 2 */
+
+.seccion2-evento {
+  margin: 2%;
+}
+
+/* Seccion 3 */
+
+.seccion3-evento {
+  margin: 2%;
+  margin-top: 8%;
+}
+
+.seccion3-evento p {
+  justify-content: center;
+  color: white;
+}
+
+/**/
+
+.contenedor-flexible {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.cuadroS2 {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.cuadroS2 {
+  width: 30%; /* Ajusta el ancho de cada cuadro */
+  height: 200px;
+  background: transparent;
+  padding: 20px;
+  transition: transform 0.3s ease; /* Animación suave al expandir */
+}
+
+.cuadroS2:hover {
+  box-shadow: 0 4px 8px 0 rgb(28, 167, 223);
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+}
+
+.cuadroS2 h1 {
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to right, #56dfdf, #28a4f7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  overflow: hidden;
+}
+
+.cuadroS2 p {
+  margin-top: 20px;
+  color: gray;
+  visibility: hidden;
+}
+
+.cuadroS2:hover p {
+  color: white;
+  visibility: visible;
+}
+
+/* Seccion pie */
+
+.seccion-pie-evento {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.seccion-pie-evento h1 {
+  color: white;
+}
+
+.seccion-pie-evento p {
+  color: gray;
+}
+
+.seccion-pie-evento a {
+  color: gray;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.seccion1-evento {
+  animation: fadeIn 4s ease-in-out 0s forwards; /* No delay */
+}
+
+.contenedor-cuadros {
+  animation: fadeIn 2s ease-in-out 3s forwards; /* 1 second delay */
+}
+
+.seccion-pie-evento {
+  animation: fadeIn 4s ease-in-out 4s forwards; /* 2 seconds delay */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+  .encabezadoPrincipal-evento {
+    text-align: center;
+  }
+
+  .seccion1-evento {
+    margin-top: 30%;
+    flex-direction: column;
+    padding: 0 20px; /* Ajusta el padding para dispositivos móviles */
+  }
+
+  .seccion1-1-evento,
+  .seccion1-2-evento {
+    max-width: 90%; /* Permite que los elementos ocupen todo el ancho */
+    margin-left: 0; /* Elimina el margen izquierdo adicional */
+  }
+
+  .image-Evento {
+    max-width: 100%; /* Opcional: Reduce el tamaño de la imagen en móviles */
+    margin: 10px auto; /* Centra la imagen y ajusta el espacio arriba y abajo */
+  }
+
+  .encabezado1-evento,
+  .encabezado2-evento,
+  .parrado1-evento {
+    width: 100%; /* Asegura que el texto ocupe todo el ancho */
+    text-align: center; /* Centra el texto */
+    margin: 5px 0; /* Ajusta los márgenes para reducir el espacio */
+  }
+
+  .seccion1-1-evento {
+    order: 2;
+  }
+  .seccion1-2-evento {
+    order: 1;
+  }
+
+  /* Cuadros */
+
+  .contenedor-cuadros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuye los cuadros uniformemente */
+    padding: 20px;
+    margin-bottom: 1%;
+  }
+
+  .cuadro {
+    width: 200px;
+  }
+
+  .contenedor-flexible {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuye los cuadros uniformemente */
+    padding: 20px;
+    margin-bottom: 1%;
+  }
+
+  .cuadroS2 {
+    width: 200px;
+    text-align: center;
+    height: Auto;
+  }
+
+  .seccion-pie-evento {
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    margin-bottom: 35%;
+  }
+}
