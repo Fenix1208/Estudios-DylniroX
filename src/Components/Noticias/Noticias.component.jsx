@@ -56,7 +56,7 @@ const Noticias = () => {
       <h1 className='Noticias-encabezado'>Difusión</h1>
       <ContenidoNoticia
         encabezado="Cardinal de DyX | WEB: Versión 1.5.1"
-        fecha="00/03/2024"
+        fecha="28/04/2024"
         contenido={
             "Nueva Sección: Eventos\n" +
             "Bienvenidos a la sección de eventos, donde encontrarás acontecimientos que están ocurriendo en este momento o están por suceder. Estos eventos están diseñados para interactuar con los usuarios de DyX.\n\n"+

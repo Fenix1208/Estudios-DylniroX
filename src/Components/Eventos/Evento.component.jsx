@@ -36,7 +36,7 @@ const Evento = () => {
           <p>
             Accede a nuestra versión BETA/Prueba de Lirix Developer™, donde
             podrás ayudarnos a probar el registro de estudios, registros de
-            colaboradores, administración de sistemas y membresías.
+            colaboradores y administración de sistemas.
           </p>
         </div>
         <div className="cuadro">
