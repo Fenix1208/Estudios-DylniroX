@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer =()=>{
     return(
         <div className="contenedor-footer">
-            <p>Copyright ©2024 Cardinal de DyX v 1.5.2 -  Estudios DylniroX™ | DylniroX Software™ Derechos reservados. -- |RFFG|</p>
+            <p>Copyright ©2024 Cardinal de DyX v 1.6 -  Estudios DylniroX™ | DylniroX Software™ Derechos reservados. -- |RFFG|</p>
         </div>
     )
 };
