@@ -26,9 +26,6 @@ function MenuMobil({ onPageChange }) {
             <button className="btnOPC" onClick={() => handleOptionClick('inicio')}>Inicio</button>
           </li>
           <li>
-            <button className="btnOPCG" onClick={() => handleOptionClick('evento')}>Evento</button>
-          </li>
-          <li>
             <button className="btnOPC" onClick={() => handleOptionClick('muestrario')}>Muestrario</button>
           </li>
           <li>

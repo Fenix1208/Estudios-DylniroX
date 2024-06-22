@@ -8,10 +8,8 @@ import N1 from "../Noticias Img/BannerCardinal.png";
 import N2 from "../Noticias Img/PromocionApps.png";
 import N3 from "../Noticias Img/PromocionMaya.png";
 import N4 from "../Noticias Img/Banners.png";
-import N5 from "../Noticias Img/EventoLirix.png";
 
 const images = [
-  N5,
   N1,
   N2,
   N3,

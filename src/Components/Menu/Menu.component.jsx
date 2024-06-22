@@ -5,7 +5,6 @@ function Menu({ onPageChange }) {
     <nav className="top-menu">
       <ul className="menu-options">
       <button className="btnOPC" onClick={() => onPageChange('inicio')}>Inicio</button>
-      <button className="btnOPCG" onClick={() => onPageChange('evento')}>Evento</button>
       <button className="btnOPC" onClick={() => onPageChange('muestrario')}>Muestrario</button>
       <button className="btnOPC" onClick={() => onPageChange('noticias')}>Noticias</button>
       <button className="btnOPC" onClick={() => onPageChange('familia')}>Familia DyX</button>

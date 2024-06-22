@@ -5,10 +5,14 @@ import KoobenI from "../Img/imgapps/KIWeb.png";
 import Kaatatik from "../Img/imgapps/KSWeb.png";
 import OTS from "../Img/imgapps/OTSWeb.png";
 import OTclasic from "../Img/imgapps/OTclasic.png";
-import Lirix from "../Img/imgapps/LirixStoreWebtwo.png";
+import Lirix from "../Img/imgapps/LirixStoreWebtree.png";
+import LirixDev from "../Img/imgapps/LirixDeveloperWebtwo.png";
+import LirixPortal from "../Img/imgapps/LirixPortalWebtwo.png";
 import LaEstafaFelis from "../Img/imgapps/LaEstafaFelizWEB.png";
 import RiverManufacturing from "../Img/imgapps/RiverWEB.png";
 import EvaSoftware from "../Img/imgapps/EvaWEB.png";
+import OTNoLanzada from "../Img/imgapps/OTSprevWEB.png";
+import Comienzo from "../Img/imgapps/ComienzoWEB.png";
 import AppDestacada from "../AppDestacada/AppDestacada.component";
 
 const Muestrario = () => {
@@ -62,13 +66,28 @@ const Muestrario = () => {
 
         <div className="contenedor-app">
           <Aplicacion
+            encabezado={"2020"}
+            background={Comienzo}
+            parrafo={"Primeros pasos"}
+            descripcion={
+              "Todos comenzamos alguna vez en algo que se convierte en más que un pasatiempo. Disfrutamos cada nueva creación y damos vida a nuestras ideas. DylniroX Estudios™ es hoy nuestra marca de presentación, y nuestros sistemas son la imagen que lo viste. Miremos estrellas juntos mientras disfrutamos de lo que más nos gusta hacer."
+            }
+          />
+        <Aplicacion
+            encabezado={"OblioN Tycons 2.0"}
+            background={OTNoLanzada}
+            parrafo={"Sistema en el olvido"}
+            descripcion={
+              "La versión 2.0 de OT Edición Estándar buscaba dar un giro total en el diseño de la aplicación y mejorar muchos aspectos de la misma. Sin embargo, esta versión nunca llegó a ver la luz y fue reemplazada posteriormente por OTS Edición Reliquia."
+            }
+          />
+          <Aplicacion
             encabezado={"La estafa feliz"}
             background={LaEstafaFelis}
             parrafo={"Proyecto escolar."}
             descripcion={
               "Aplicación para tiendas que permite la organización, gestión y control del inventario, ofreciendo la posibilidad de realizar pedidos de aquellos productos en escasez de existencias, y de realizar ventas, para aquellos clientes interesados. " +
               "Cuenta con un sistema de soporte integrado, ventanas flotantes y sistema de notificaciones para la confirmación de transacciones. "
-
             }
           />
           <Aplicacion
@@ -89,6 +108,7 @@ const Muestrario = () => {
               "datos a la que el mismo sistema actualiza, y donde a su vez, recibió una planificación para prevenir cambios y ofrecer una BD mas estable."
             }
           />
+          
         </div>
 
         <h1 className="encabezado-elegante">
@@ -96,7 +116,7 @@ const Muestrario = () => {
         </h1>
         <div className="contenedor-app">
           <Aplicacion
-            encabezado={"Kaatik Software"}
+            encabezado={"Kaatik Software™"}
             background={Kaatatik}
             parrafo={"Lo nuevo llego a DyX."}
             descripcion={
@@ -105,22 +125,44 @@ const Muestrario = () => {
             }
           />
           <Aplicacion
-            encabezado={"Lirix Store"}
+            encabezado={"Lirix Store™"}
             background={Lirix}
             parrafo={"Descubriendo sueños."}
             descripcion={
-              "Una tienda de aplicaciones elegante propuesta para concursar en INOVATEC, integra las mejores novedades al llevarnos a explorar nuevas formas de desarrollar aplicaciones. Lirix es la primera aplicación que cuenta con objetos dinámicos" + 
-              " y la posibilidad de descargar otros sistemas desde la nube. Un elegante diseño contrastado con colores oscuros e impulsado con aceleración por Hardware hacen de Lirix el proyecto con mejor UI y UX de DylniroX™. Este proyecto ha sido " + 
+              "Una tienda de aplicaciones elegante propuesta para concursar en INOVATEC, integra las mejores novedades al llevarnos a explorar nuevas formas de desarrollar aplicaciones. Lirix es la primera aplicación que cuenta con objetos dinámicos" +
+              " y la posibilidad de descargar otros sistemas desde la nube. Un elegante diseño contrastado con colores oscuros e impulsado con aceleración por Hardware hacen de Lirix el proyecto con mejor UI y UX de DylniroX™. Este proyecto ha sido " +
               " desarrollado por DylniroX Software™ | Azulados y Asociados Corp."
             }
           />
+          <Aplicacion
+            encabezado={"Lirix Developer™"}
+            background={LirixDev}
+            parrafo={"Donde los sueños comienzan"}
+            descripcion={
+              "El complemento ideal para los desarrolladores que publican sus sistemas en nuestra tienda. Con Lirix Dev™, " +
+              "accedes a un entorno con herramientas de administración y control para tus aplicaciones, así como utilidades para estar en constante comunicación con tus clientes."
+            }
+          />
         </div>
-        
       </div>
 
       <h1 className="encabezado-elegante">
-          Otros proyectos llegaran con el tiempo a Cardinal, esperalos.
-        </h1>
+        Desarrollados en .Net Core y SQL Server.
+      </h1>
+      <div className="contenedor-app">
+        <Aplicacion
+          encabezado={"Portal Lirix™"}
+          background={LirixPortal}
+          parrafo={"Los sueños viajan por el aire a oidos de muchos"}
+          descripcion={
+            "Un entorno combinado con sistemas que se integran tanto en nuestras plataformas de escritorio como en la web. Accede a las novedades en tiempo real sin necesidad de realizar descargas, todo directamente desde la web."
+          }
+        />
+      </div>
+
+      <h1 className="encabezado-elegante">
+        Otros proyectos llegaran con el tiempo a Cardinal, esperalos.
+      </h1>
       <AppDestacada />
     </div>
   );
