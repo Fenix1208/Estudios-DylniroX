@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Estudios-DylniroX/static/css/main.4c06ebcd.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.94843ddb.js",
-    "static/js/453.5e5b22c8.chunk.js": "/Estudios-DylniroX/static/js/453.5e5b22c8.chunk.js",
+    "main.css": "/Estudios-DylniroX/static/css/main.e5a06259.css",
+    "main.js": "/Estudios-DylniroX/static/js/main.80491521.js",
+    "static/js/453.200db5ff.chunk.js": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js",
     "static/media/Banners.png": "/Estudios-DylniroX/static/media/Banners.d5e5f3642623444b763e.png",
     "static/media/FondoCDWeb.png": "/Estudios-DylniroX/static/media/FondoCDWeb.131652f425178ccf0ba4.png",
     "static/media/PromocionMaya.png": "/Estudios-DylniroX/static/media/PromocionMaya.06289bb154d8ed96fa02.png",
@@ -14,6 +14,7 @@
     "static/media/CardinaldeDyXAppDesc.png": "/Estudios-DylniroX/static/media/CardinaldeDyXAppDesc.04be53895dd2469c2ae5.png",
     "static/media/BannerCardinal.png": "/Estudios-DylniroX/static/media/BannerCardinal.166343c1f45ed36d82f2.png",
     "static/media/LirixPortalWebtwo.png": "/Estudios-DylniroX/static/media/LirixPortalWebtwo.7dc1704ec631881ce1bc.png",
+    "static/media/EventoVeranoOTS.png": "/Estudios-DylniroX/static/media/EventoVeranoOTS.f889aeb10acd95210ec4.png",
     "static/media/LirixDeveloperWebtwo.png": "/Estudios-DylniroX/static/media/LirixDeveloperWebtwo.ba9f215abb896122e66a.png",
     "static/media/KIWeb.png": "/Estudios-DylniroX/static/media/KIWeb.c329970adc7b144af6c7.png",
     "static/media/LirixStoreWebtree.png": "/Estudios-DylniroX/static/media/LirixStoreWebtree.012f978bc72324a296c1.png",
@@ -23,12 +24,12 @@
     "static/media/EvaWEB.png": "/Estudios-DylniroX/static/media/EvaWEB.d58b0894bebbbf56f5c5.png",
     "static/media/OTSprevWEB.png": "/Estudios-DylniroX/static/media/OTSprevWEB.f7f9231f5e4bc7e3b212.png",
     "index.html": "/Estudios-DylniroX/index.html",
-    "main.4c06ebcd.css.map": "/Estudios-DylniroX/static/css/main.4c06ebcd.css.map",
-    "main.94843ddb.js.map": "/Estudios-DylniroX/static/js/main.94843ddb.js.map",
-    "453.5e5b22c8.chunk.js.map": "/Estudios-DylniroX/static/js/453.5e5b22c8.chunk.js.map"
+    "main.e5a06259.css.map": "/Estudios-DylniroX/static/css/main.e5a06259.css.map",
+    "main.80491521.js.map": "/Estudios-DylniroX/static/js/main.80491521.js.map",
+    "453.200db5ff.chunk.js.map": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c06ebcd.css",
-    "static/js/main.94843ddb.js"
+    "static/css/main.e5a06259.css",
+    "static/js/main.80491521.js"
   ]
 }
