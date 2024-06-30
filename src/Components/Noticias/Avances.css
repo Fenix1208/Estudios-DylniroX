@@ -1,0 +1,46 @@
+.contain-contenido-Avances {
+  display: grid;
+  grid-template-columns: 1fr 10%;
+  gap: 1rem; 
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #24252d;
+  border-style: double;
+  margin: 1px;
+}
+
+/* Estilos para cada columna  */
+.columna-izquierda {
+  
+}
+
+.columna-derecha {
+  padding: 5px;
+}
+
+.encabezado-elegante-Avances {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  margin-left: 2%;
+}
+
+.contenido-Avances {
+  margin-right: 2%;
+  font-size: 12px;
+  text-align: right;
+}
+
+.parrafo-contenido-Avances {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .contain-contenido-Avances {
+    grid-template-columns: 1fr 20%;
+  }
+}
