@@ -1,26 +1,72 @@
 /* MainPage.css */
+body {
+  margin: 0; 
+}
 
 .main-page-principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Ocupa toda la altura de la ventana */
-    padding-left: 0px; /* Espacio a la izquierda */
+  height: 100vh; 
+  width: 100%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.div-inicio-v2 {
+  position: relative;
+  width: 100%; 
+  height: 100%;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.div-inicio-v2 h1 {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 120px;
+  text-align: center;
+  font-weight: 400px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px;
+  margin: 0px;
+  box-shadow: 5px 5px 15px #000;
+}
+
+.div-inicio-v2 p {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 0px 0px 20px 20px;
+  margin: 4px 0px 0px 0px;
+  box-shadow: 5px 5px 15px gray;
+}
+
+
+.div-container-textox-inicio {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  mix-blend-mode: multiply;
+}
+
+
+@media (max-width: 600px) {
+  .div-inicio-v2 h1 {
+    font-size: 35px;
+    width: 300px;
   }
   
-  .main-title {
-    font-size: 30px;
-    margin-bottom: 10px;
+  .div-inicio-v2 p {
+    font-size: 15px;
   }
-  
-  .sub-text {
-    font-size: 16px;
-    opacity: 0.7; /* Texto más pequeño y ligeramente opaco */
-    transition: opacity 0.3s ease; /* Transición suave al pasar el cursor */
-  }
-  
-  .sub-text:hover {
-    opacity: 1; /* Vuelve a ser sólido al pasar el cursor */
-  }
-  
+}

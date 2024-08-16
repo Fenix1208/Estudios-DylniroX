@@ -4,6 +4,7 @@
     border-color: #24252D;
     border-style:double;
     margin: 1px;
+    transition: box-shadow 0.5s ease;
 }
 
 .contain-contenido-noticias:hover{

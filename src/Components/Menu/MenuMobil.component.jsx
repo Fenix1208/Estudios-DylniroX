@@ -17,25 +17,25 @@ function MenuMobil({ onPageChange }) {
 
   return (
     <nav className="top-menu-mobil">
-      <button className="btnOPC" onClick={handleMenuClick}>
+      <button className="btnOPC-mobil" onClick={handleMenuClick}>
         Menú
       </button>
       {showMenu && (
         <ul className="menu-options-mobil">
           <li>
-            <button className="btnOPC" onClick={() => handleOptionClick('inicio')}>Inicio</button>
+            <button className="btnOPC-mobil" onClick={() => handleOptionClick('inicio')}>Inicio</button>
           </li>
           <li>
-            <button className="btnOPC" onClick={() => handleOptionClick('muestrario')}>Muestrario</button>
+            <button className="btnOPC-mobil" onClick={() => handleOptionClick('muestrario')}>Muestrario</button>
           </li>
           <li>
-            <button className="btnOPC" onClick={() => handleOptionClick('noticias')}>Noticias</button>
+            <button className="btnOPC-mobil" onClick={() => handleOptionClick('noticias')}>Noticias</button>
           </li>
           <li>
-            <button className="btnOPC" onClick={() => handleOptionClick('familia')}>Familia DyX</button>
+            <button className="btnOPC-mobil" onClick={() => handleOptionClick('familia')}>Familia DyX</button>
           </li>
           <li>
-            <button className="btnOPC" onClick={() => handleOptionClick('informacion')}>Información del Sitio</button>
+            <button className="btnOPC-mobil" onClick={() => handleOptionClick('informacion')}>Información del Sitio</button>
           </li>
         </ul>
       )}

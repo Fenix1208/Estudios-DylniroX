@@ -9,7 +9,7 @@ import N1 from "../Noticias Img/BannerCardinal.png";
 import N2 from "../Noticias Img/PromocionApps.png";
 import N3 from "../Noticias Img/PromocionMaya.png";
 import N4 from "../Noticias Img/Banners.png";
-import N5 from "../Noticias Img/EventoVeranoOTS.png";
+import N5 from "../Noticias Img/ThoughtTrail.png";
 
 const images = [
   N5,
@@ -67,6 +67,15 @@ const Noticias = () => {
       <h1 className="Noticias-encabezado">Avances.</h1>
 
       <div className="contenedor-difucion">
+      <Avances
+          encabezado="Nuevo lanzamiento de software"
+          fecha="23/07/2024"
+          estado="Demo"
+          contenido={
+            "ThoughtTrail™ ha llegado a DylnrioX, nuestra primera aplicación para uso local sin conexión a bases de datos. Está disponible exclusivamente para nuestros usuarios de software. Se trata de un sistema " +
+            "simple pero directo para la elaboración y almacenamiento de notas, diseñado para dar seguimiento y orden a tus ideas. Descárgalo como socio de software EXCLUSIVO."
+          }
+        />
         <Avances
           encabezado="Presentación de Software 2024"
           fecha="29/06/2024"
@@ -100,6 +109,21 @@ const Noticias = () => {
       </h1>
 
       <div className="contenedor-difucion">
+        <ContenidoNoticia
+          encabezado="Cardinal de DyX | WEB: Versión 1.9"
+          fecha="16/08/2024"
+          contenido={
+            "Menú de navegación en pantalla: \n" +
+            "Hemos actualizado el diseño del menú de navegación para que sea menos intrusivo y más atractivo. Ahora, cuando el cursor se coloca sobre él, aparece un efecto traslúcido." +
+            "\nMenú para dispositivos móviles: \n" +
+            "Hemos optimizado el diseño del menú para dispositivos móviles, permitiendo que cada botón se ajuste correctamente al ancho y alto de la ventana." +
+            "\nCorrección en la página de información para móviles: \n" +
+            "Corregimos la posición de la información en la página de móviles, que antes estaba demasiado abajo en comparación con otras secciones." +
+            "\nCambios generales: \n" +
+            "Agregamos transiciones a varios componentes y actualizamos el diseño del nombre del sitio en la página de inicio." +
+            "\n\nEstos cambios están disponibles en la versión 1.9 del sitio. ¡Esperamos que te gusten! Seguimos trabajando para mejorar. ¡Sigamos mirando las estrellas juntos!"
+          }
+        />
         <ContenidoNoticia
           encabezado="Cardinal de DyX | WEB: Versión 1.7"
           fecha="29/06/2024"

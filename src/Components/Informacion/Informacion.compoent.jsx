@@ -48,7 +48,6 @@ const Informacion = () => {
             para Windows. Actualmente, no tenemos un enfoque específico
             destinado al desarrollo web."
           </p>
-          <h1 className="h1-element">Contacto: estudiosdylnirox.mx@gmail.com</h1>
         </div>
       </Element>
     </div>

@@ -1,15 +1,20 @@
 
 .top-menu-mobil {
     position: fixed;
-    align-items: center;
-    margin-top: 10px;
+    left: 0;
     top: 0;
-    width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
+    opacity: 40%;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
+    transition: opacity 0.3s ease;
     z-index: 1000;
   }
   
+  .top-menu-mobil:hover {
+    opacity: 100%;
+  }
+
   .menu-options-mobil {
     list-style: none;
     padding: 0;
@@ -26,21 +31,22 @@
     background-color: #ffffff;
   }
   
-  .btnOPC {
-    background: transparent;
+  .btnOPC-mobil {
     border-style: none;
-    align-items: center;
+    text-align: left;
+    background: transparent;
     cursor: pointer;
-    border-radius: 20%;
+    border-radius: 2%;
     padding: 10px;
-    margin: 5px;
+    margin: 2px;
+    width: 100%;
   }
   
-  .btnOPC:hover {
+  .btnOPC-mobil:hover {
     background-color: #f0f0f06b;
   }
 
-  .btnOPCG {
+  .btnOPCG-mobil {
     border-style: none;
     align-items: center;
     cursor: pointer;
@@ -54,7 +60,7 @@
     -webkit-text-fill-color: transparent;
   }
   
-  .btnOPCG:hover {
+  .btnOPCG-mobil:hover {
     background: linear-gradient(to right, red, #1E78CE);
     background-clip: text;
   }

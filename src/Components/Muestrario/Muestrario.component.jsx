@@ -13,6 +13,9 @@ import RiverManufacturing from "../Img/imgapps/RiverWEB.png";
 import EvaSoftware from "../Img/imgapps/EvaWEB.png";
 import OTNoLanzada from "../Img/imgapps/OTSprevWEB.png";
 import Comienzo from "../Img/imgapps/ComienzoWEB.png";
+import MWOWEB from "../Img/imgapps/MWOWEB.png";
+import D5WEB from "../Img/imgapps/D5WEB.png";
+import TT from "../Img/imgapps/ThoughtTrailIcon.png";
 import AppDestacada from "../AppDestacada/AppDestacada.component";
 
 const Muestrario = () => {
@@ -73,7 +76,7 @@ const Muestrario = () => {
               "Todos comenzamos alguna vez en algo que se convierte en más que un pasatiempo. Disfrutamos cada nueva creación y damos vida a nuestras ideas. DylniroX Estudios™ es hoy nuestra marca de presentación, y nuestros sistemas son la imagen que lo viste. Miremos estrellas juntos mientras disfrutamos de lo que más nos gusta hacer."
             }
           />
-        <Aplicacion
+          <Aplicacion
             encabezado={"OblioN Tycons 2.0"}
             background={OTNoLanzada}
             parrafo={"Sistema en el olvido"}
@@ -108,7 +111,32 @@ const Muestrario = () => {
               "datos a la que el mismo sistema actualiza, y donde a su vez, recibió una planificación para prevenir cambios y ofrecer una BD mas estable."
             }
           />
-          
+
+          <Aplicacion
+            encabezado={"Mun Wai ONE"}
+            background={MWOWEB}
+            parrafo={"Panel de control de Valio."}
+            descripcion={
+              "El panel de control de nuestra asistente virtual llega para sustituir el primer panel de configuración lanzado con Maya-D5. Este panel permite controlar, " +
+              "administrar y consultar los comandos de voz y respuestas que nuestra asistente acepta, así como configurar las aplicaciones que deseas abrir o los " +
+              "sitios a los que deseas navegar mediante voz. Este panel administrativo incorpora lo mejor que Estudios Dylnirox™ " +
+              "tenía al momento de desarrollo, innovando con nuevas prácticas de desarrollo junto a interfaces más nutridas y una experiencia de navegación mejorada. "
+            }
+          />
+
+          <Aplicacion
+            encabezado={"Maya-D5"}
+            background={D5WEB}
+            parrafo={"Asistente virtaul."}
+            descripcion={
+              "La distribución 5 (D5) de nuestra asistente virtual para ordenadores llega con mejoras en la comunicación. " +
+              "Ahora puede aceptar comandos de voz a voz, texto a texto y texto a voz. D5 se desarrolló teniendo en cuenta todo lo " +
+              "aprendido por Estudios Dylnirox™ hasta el momento de desarrollo. Contempla una interfaz más nutrida y una experiencia mejorada, " +
+              "con sistema de silencio, configuración, cambios de plantilla en la interfaz, mejoras en la comunicación y comprensión de palabras, " +
+              "así como la posibilidad de entender peticiones más extensas. " +
+              "Hasta la fecha, Estudios Dylnirox™ ha dado por finalizado el desarrollo, por lo que un lanzamiento oportuno parece lejano."
+            }
+          />
         </div>
 
         <h1 className="encabezado-elegante">
@@ -137,10 +165,18 @@ const Muestrario = () => {
           <Aplicacion
             encabezado={"Lirix Developer™"}
             background={LirixDev}
-            parrafo={"Donde los sueños comienzan"}
+            parrafo={"Donde los sueños comienzan."}
             descripcion={
               "El complemento ideal para los desarrolladores que publican sus sistemas en nuestra tienda. Con Lirix Dev™, " +
               "accedes a un entorno con herramientas de administración y control para tus aplicaciones, así como utilidades para estar en constante comunicación con tus clientes."
+            }
+          />
+          <Aplicacion
+            encabezado={"ThoughtTrail™"}
+            background={TT}
+            parrafo={"Camino del pensamiento."}
+            descripcion={
+              "¿Sabías que ejercitar la mente recordando cosas importantes es beneficioso? Sin embargo, a veces todos necesitamos un poco de ayuda para no olvidar. Por eso, te presentamos nuestra elegante aplicación de notas. Refrescar tus memorias nunca fue tan sencillo."
             }
           />
         </div>

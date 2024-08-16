@@ -3,25 +3,30 @@
 .top-menu {
   position: fixed;
   align-items: center;
-  margin-top: 10px;
+  left: 50%;
   top: 0;
-  width: 100%;
+  transform: translate(-50%, 10%);
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.9);
+  opacity: 40%;
   transition: background-color 0.3s ease;
+  transition: opacity 0.5s ease;
   z-index: 1000;
+}
+
+.top-menu:hover {
+  opacity: 100%;
 }
 
 .menu-options {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 1%;
 }
 
 .menu-options li {
   margin-right: 40px;
-  padding: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -35,15 +40,20 @@
   border-style: none;
   align-items: center;
   cursor: pointer;
-  border-radius: 20%;
-  padding: 10px;
-  margin: 5px;
+  margin: 2px;
+  color: gray;
 }
 
 .btnOPC:hover {
-  background-color: #f0f0f06b; /* Cambia el color al pasar el cursor */
+  background: transparent;
+  border-style: none;
+  align-items: center;
+  cursor: pointer;
+  margin: 2px;
+  color: black;
 }
 
+/* Evento */
 .btnOPCG {
   border-style: none;
   align-items: center;
