@@ -3,11 +3,13 @@
 .top-menu {
   position: fixed;
   align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
   left: 50%;
   top: 0;
   transform: translate(-50%, 10%);
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más suave */
   opacity: 40%;
   transition: background-color 0.3s ease;
   transition: opacity 0.5s ease;
@@ -36,21 +38,29 @@
 }
 
 .btnOPC {
-  background: transparent;
   border-style: none;
   align-items: center;
   cursor: pointer;
   margin: 2px;
-  color: gray;
+  position: relative;
+  color: transparent;
+  background: linear-gradient(to bottom, #96CEFF, #ececec); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  transition: background 0.5s ease-in-out; 
 }
 
 .btnOPC:hover {
-  background: transparent;
   border-style: none;
   align-items: center;
-  cursor: pointer;
-  margin: 2px;
-  color: black;
+  background: linear-gradient(to bottom, #ececec, #96CEFF); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: iluminar 1s infinite;
+  transition: background 0.5s ease-in-out; 
 }
 
 /* Evento */

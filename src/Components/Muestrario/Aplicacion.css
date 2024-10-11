@@ -1,30 +1,37 @@
-.contenedor-general-apps{
-  margin: 2px;
+.contenedor-app {
+  background: linear-gradient(135deg, #2C3E50, #4CA1AF); /* Degradado sutil */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out; /* Transición suave */
 }
 
-/* Estilos para el contenedor de texto */
-.contenedor-texto {
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
-  padding: 10px; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  height: 80%;
-  width: 90%;
+.contenedor-general-apps {
+  cursor: pointer;
+  width: 100%; /* Se ajusta al ancho del contenedor */
+  height: auto; /* Se ajusta automáticamente en altura */
+  position: relative;
 }
 
-/* Estilos para el encabezado */
-.encabezado-app {
-  font-size: 24px;
-  font-weight: bold;
+.contenedor-general-apps img {
+  max-width: 100%; /* Se ajusta al ancho del contenedor sin excederlo */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 1px;
 }
 
-/* Estilos para el párrafo */
-.parrafo-app {
-  font-size: 16px;
+.contenedor-general-apps :hover {
+  max-width: 100%; /* Se ajusta al ancho del contenedor sin excederlo */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin: 1px;
 }
 
-/* Estilos para la descripción */
-.descripcion-app {
-  font-size: 14px;
-}
 
 

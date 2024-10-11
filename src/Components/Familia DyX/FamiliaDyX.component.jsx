@@ -34,15 +34,6 @@ const FamiliaDyX = () => {
             </p>
           </div>
           <div className="contenedor-inf-DyX">
-            <h1 className="encabezado-elegante">NiroX Grup™.</h1>
-            <p className="parrafo-informacion">
-              “Desde finales de 2023, Estudios DylniroX™ se hace cargo de la
-              elaboración y publicación de nuestros documentos legales, como las
-              políticas de desarrollo, distribución y ventas, que antes
-              dependían de otra entidad.”
-            </p>
-          </div>
-          <div className="contenedor-inf-DyX">
             <h1 className="encabezado-elegante">En equipo llegamos lejos.</h1>
             <p className="parrafo-informacion">
               “Como parte de nuestra formación, desarrollamos proyectos que se

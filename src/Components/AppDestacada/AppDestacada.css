@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px gray;
+  box-shadow: 1px 1px 15px black;
 }
 
 .izquierda {
@@ -13,6 +13,7 @@
   text-align: center;
   align-items: center;
   margin-left: 4%;
+  color: #96CEFF;
 }
 
 .derecha {
@@ -24,11 +25,12 @@
 
 .destacado-imagen {
   height: auto; /* Mantiene la proporción de la imagen */
-  width: 90% /* Ocupa el 50% del ancho de la pantalla */
+  width: 100%; /* Ocupa el 50% del ancho de la pantalla */
 }
 
 .parrafo-destacado {
   padding: 20px;
+  color: #ececec;; 
 }
 
 @media (max-width: 600px) {

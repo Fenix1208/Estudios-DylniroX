@@ -1,14 +1,21 @@
 .muestrario-container {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-left: 0px; /* Espacio a la izquierda */
+  padding-left: 0px;
+  padding: 20px;
 }
 
 .encabezados-container {
   top: 0;
+  color: transparent;
+  background: linear-gradient(to bottom, #96ceff, #ececec);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .Encabezado {
@@ -22,44 +29,136 @@
 
 .Encabezado,
 .Sub-encabezado {
-  margin-bottom: 0; /* Elimina el margen inferior */
+  margin-bottom: 0;
   text-align: center;
 }
 
-.encabezado-elegante {
-  font-family: "Roboto", sans-serif;
+.encabezado-elegante2 {
   font-size: 20px;
-  color: black;
-  text-align: left;
-  letter-spacing: 1px; /* Espaciado entre letras */
+  color: #96ceff;
+  text-align: center;
+  letter-spacing: 1px;
   margin-top: 2%;
-}
-
-.encabezado-elegante span {
-  font-weight: bold; /* Resalta las palabras "C#" y "SQL Server" */
+  margin-left: 2%;
 }
 
 .contenedor-muestrario {
-  margin: 10px;
+  margin: 5px;
   margin-top: 80px;
 }
 
-.contenedor-app {
+.div-seccion {
   display: flex;
-  flex-wrap: wrap; /* Ajusta automáticamente los elementos cuando no hay suficiente espacio */
-  justify-content: left; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1px;
 }
 
+.contenedor-app {
+  width: 20%;
+  border-radius: 8px;
+}
+
+.div-contenedor-informacion {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.div-flotante-informacion {
+  position: relative;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.div-informacion-encabezado {
+  color: #96ceff;
+}
+
+.p-flotante-descripcion {
+  text-align: center;
+  word-wrap: break-word;
+  color: transparent;
+  background: linear-gradient(to bottom, #96ceff, #ececec);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.div-flotante-pie {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #ececec;
+}
+
+.div-flotante-pie p {
+  margin: 2px;
+}
+
+@media (max-width: 1200px) {
+  .contenedor-app {
+    width: 40%;
+  }
+}
 
 @media (max-width: 600px) {
-  .muestrario-container, .contenedor-muestrario {
+  .muestrario-container,
+  .contenedor-muestrario {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-left: 0; /* Elimina el espacio a la izquierda */
-    margin: 10px;
+    padding-left: 0;
+    padding: 10px;
+  }
+
+  .contenedor-app {
+    width: 60%;
+    border-radius: 8px;
+  }
+
+  .div-contenedor-informacion {
+    position: fixed;
+  }
+
+  .div-flotante-informacion {
+    position: relative;
+    max-height: 90%;
+    width: 80%;
+    overflow: auto;
+  }
+
+  .div-informacion-encabezado {
+    /*position: sticky;*/
+    top: 0;
+    z-index: 10;
+  }
+
+  .p-flotante-descripcion {
+    overflow: auto;
+  }
+
+  .div-flotante-pie {
+    text-align: center;
   }
 }

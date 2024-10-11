@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Muestrario.css";
 import Aplicacion from "./Aplicacion.component";
 import KoobenI from "../Img/imgapps/KIWeb.png";
@@ -19,187 +19,252 @@ import TT from "../Img/imgapps/ThoughtTrailIcon.png";
 import AppDestacada from "../AppDestacada/AppDestacada.component";
 
 const Muestrario = () => {
+  const [info, setInfo] = useState({
+    encabezado: "",
+    frase: "",
+    descripcion: "",
+    desarrollador: "",
+  });
+
+  const handleAplicacionClick = (
+    encabezado,
+    frase,
+    descripcion,
+    desarrollador
+  ) => {
+    setInfo({ encabezado, frase, descripcion, desarrollador });
+    handleClick();
+  };
+
+  const [visible, setVisible] = useState(false);
+
+  const handleClick = () => {
+    setVisible(!visible);
+  };
+
+  useEffect(() => {
+    if (visible) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    // Limpiar el estado cuando el componente se desmonta
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [visible]);
+
+  const WindosForms = [
+    {
+      background: OTclasic,
+      encabezado: "OblioN Tycons",
+      frase: "Nuestro primer gran proyecto..",
+      descripcion: "Bienvenido a OblioN Tycons, un software especialmente desarrollado para Invocadores. Como parte del gremio de Invocadores, tu deber es distribuir mercancías por OblioN, lo que beneficia a sus habitantes y a ti. Sin embargo, no todo es tan fácil, y lo veras cuando tus invocaciones se enfrenten a diferentes enemigos en la Colina de las Sombras, donde los contratos colocados por el gremio de invocadores te brindasen de la moneda más valiosa de OblioN, los Fragmentos ARCAICOS. Disfruta de una experiencia tycon, mientras obtienes todas las invocaciones posibles hasta la fecha.",
+      empresa: "Estudios Dylnirox™"
+    },
+    {
+      background: KoobenI,
+      encabezado: "K`oóben Inventario 2.0E",
+      frase: "El antes y despues de nuestras aplicaciones.",
+      descripcion: "Gestor de inventario para restaurantes que permite controlar el inventario, tener a la mano las recetas, asignar restricciones a empleados y tener un control sobre las ventas realizadas. Esta aplicación fue desarrollada como proyecto final y evaluada en tres ocasiones. Ahora está disponible de forma gratuita para descargar, probar y puntuar, en la versión mas completa, mejorada, rediseña y optimizada para mejorar la experiencia que KI 1.1.1 ya ofrecía.",
+      empresa: "Dylnriox Software | K`oóben Software"
+    },
+    {
+      background: OTS,
+      encabezado: "OTS Edicion Reliquia",
+      frase: "Mejorando clasicos de DyX.",
+      descripcion: "Bienvenido a OblioN, la ciudad para invocadores más grande de ArkaNe, aquí podrás trabajar como recolector y comerciante para ganar la mayor cantidad de créditos posibles, o trabajar como invocador combatiendo con las distintas criaturas " +
+                    " que el gremio a encontrado a los alrededores de OblioN. Conviértete en un guardián prestigiado o en el mas rico de todo el lugar. ",
+      empresa: "Dylnirox Software™"
+    },
+    {
+      background: Comienzo,
+      encabezado: "2020",
+      frase: "Primeros pasos.",
+      descripcion: "Todos comenzamos alguna vez en algo que se convierte en más que un pasatiempo. Disfrutamos cada nueva creación y damos vida a nuestras ideas. DylniroX Estudios™ es hoy nuestra marca de presentación, y nuestros sistemas son la imagen que lo viste. Miremos estrellas juntos mientras disfrutamos de lo que más nos gusta hacer.",
+      empresa: "Dylnirox™"
+    },
+    {
+      background: OTNoLanzada,
+      encabezado: "OblioN Tycons 2.0",
+      frase: "Sistema en el olvido.",
+      descripcion: "La versión 2.0 de OT Edición Estándar buscaba dar un giro total en el diseño de la aplicación y mejorar muchos aspectos de la misma. Sin embargo, esta versión nunca llegó a ver la luz y fue reemplazada posteriormente por OTS Edición Reliquia.",
+      empresa: "Estudios Dylnirox™"
+    },
+    {
+      background: LaEstafaFelis,
+      encabezado:"La estafa feliz",
+      frase: "Proyecto escolar.",
+      descripcion: "Aplicación para tiendas que permite la organización, gestión y control del inventario, ofreciendo la posibilidad de realizar pedidos de aquellos productos en escasez de existencias, y de realizar ventas, para aquellos clientes interesados. " +
+                    "Cuenta con un sistema de soporte integrado, ventanas flotantes y sistema de notificaciones para la confirmación de transacciones. ",
+      empresa: "Estudios Dylnirox™"
+    },
+    {
+      background: RiverManufacturing,
+      encabezado: "River Manufacturing",
+      frase: "Evaluacion de examen.",
+      descripcion: "Propuesta de diseño para sistema de rastreo de transportes de carga. Permite localizar la ubicación de los camiones, destinar rutas de trabajo, obtener un historial de rutas y ver estadísticas en función a las operaciones que realiza la empresa.",
+      empresa: "Estudios Dylnirox™"
+    },
+    {
+      background: EvaSoftware,
+      encabezado: "Eva Software",
+      frase: "Migrador de Base de Datos.",
+      descripcion: "Este sistema es un complemento lanzado por Estudios Dylnirox™ para Oblion Tycons (OT) con la finalidad de poder migrar datos de una base de datos (BD) desactualizada, a una BD acorde a la nueva versión de OT.   Esto, por que en su momento OT no contaba " +
+                    "con una BD bien estructurada y normalizada, por lo que incluir nuevo contenido afectaba a BD de versiones anteriores. Actualmente este sistema ya no es requerido en la versión mejorada de OT, Oblion Tycons Softwre Edición Reliquia cuenta con una base de " +
+                    "datos a la que el mismo sistema actualiza, y donde a su vez, recibió una planificación para prevenir cambios y ofrecer una BD mas estable.",
+      empresa: "Estudios Dylnirox™"
+    },
+    {
+      background: MWOWEB,
+      encabezado: "Mun Wai ONE",
+      frase: "Panel de control de Valio.",
+      descripcion: "El panel de control de nuestra asistente virtual llega para sustituir el primer panel de configuración lanzado con Maya-D4. Este panel permite controlar, " +
+                    "administrar y consultar los comandos de voz y respuestas que nuestra asistente acepta, así como configurar las aplicaciones que deseas abrir o los " +
+                    "sitios a los que deseas navegar mediante voz. Este panel administrativo incorpora lo mejor que Estudios Dylnirox™ " +
+                    "tenía al momento de desarrollo, innovando con nuevas prácticas de desarrollo junto a interfaces más nutridas y una experiencia de navegación mejorada. ",
+      empresa: "Estudios Dylnirox™"
+    },
+    {
+      background: D5WEB,
+      encabezado: "Maya-D5",
+      frase: "Asistente virtual.",
+      descripcion: "La distribución 5 (D5) de nuestra asistente virtual para ordenadores llega con mejoras en la comunicación. " +
+                    "Ahora puede aceptar comandos de voz a voz, texto a texto y texto a voz. D5 se desarrolló teniendo en cuenta todo lo " +
+                    "aprendido por Estudios Dylnirox™ hasta el momento de desarrollo. Contempla una interfaz más nutrida y una experiencia mejorada, " +
+                    "con sistema de silencio, configuración, cambios de plantilla en la interfaz, mejoras en la comunicación y comprensión de palabras, " +
+                    "así como la posibilidad de entender peticiones más extensas. " +
+                    "Hasta la fecha, Estudios Dylnirox™ ha optado por no continuar con su derrollo, sin embargo, puede que en un futuro regrese.",
+      empresa:  "Estudios Dylnirox™"
+    }
+  ];
+
+  const WPF = [
+    {
+      background: Kaatatik,
+      encabezado: "K`aátik Software",
+      frase: "Lo nuevo llego a DyX.",
+      descripcion:                   "Nuestro software echo a la medida para la organización, gestión y control de pedidos. Incluye roles de usuarios, " +
+      "personalización de pedidos y control de ventas. ",
+      empresa: "Dylnirox Software™"
+    },
+    {
+      background: Lirix,
+      encabezado: "Lirix Store™",
+      frase: "Descubriendo sueños.",
+      descripcion: "Una tienda de aplicaciones elegante propuesta para concursar en INOVATEC, integra las mejores novedades al llevarnos a explorar nuevas formas de desarrollar aplicaciones. Lirix es la primera aplicación que cuenta con objetos dinámicos" +
+                    " y la posibilidad de descargar otros sistemas desde la nube. Un elegante diseño contrastado con colores oscuros e impulsado con aceleración por Hardware hacen de Lirix el proyecto con mejor UI y UX de DylniroX™. Este proyecto ha sido " +
+                    " desarrollado por DylniroX Software™ | Azulados y Asociados Corp.",
+      empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V"
+    },
+    {
+      background: LirixDev,
+      encabezado: "Lirix Developer™",
+      frase: "Donde los sueños comienzan.",
+      descripcion:  "El complemento ideal para los desarrolladores que publican sus sistemas en nuestra tienda. Con Lirix Dev™, " +
+      "accedes a un entorno con herramientas de administración y control para tus aplicaciones, así como utilidades para estar en constante comunicación con tus clientes.",
+      empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V"
+    },
+    {
+      background: TT,
+      encabezado: "ThoughtTrail™",
+      frase: "Camino del pensamiento.",
+      descripcion: "¿Sabías que ejercitar la mente recordando cosas importantes es beneficioso? Sin embargo, a veces todos necesitamos un poco de ayuda para no olvidar. Por eso, te presentamos nuestra elegante aplicación de notas. Refrescar tus memorias nunca fue tan sencillo.",
+      empresa: "Dylnirox Software™"
+    }
+  ];
+
+  const NetCores = [
+    {
+      background: LirixPortal,
+      encabezado: "Portal Lirix™",
+      frase: "Los sueños viajan por el aire a oidos de muchos",
+      descripcion: "Un entorno combinado con sistemas que se integran tanto en nuestras plataformas de escritorio como en la web. Accede a las novedades en tiempo real sin necesidad de realizar descargas, todo directamente desde la web.",
+      empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V"
+    }
+  ];
+
   return (
     <div className="muestrario-container">
       <div className="encabezados-container">
         <h1 className="Encabezado">Descubre algunos de nuestros proyectos</h1>
-        <p className="Sub-encabezado">
-          Desarrollados en Visual Studio con C# y XAML.
-        </p>
+        <p className="Sub-encabezado">C# | XAML | SQL Sever | MVC</p>
+        <p className="Sub-encabezado">Aprendiendo: .Net Core | Informix | HTML | CSS | JS | React</p>
+        <p className="Sub-encabezado">Proximamente: Delphi</p>
       </div>
 
       <div className="contenedor-muestrario">
-        <h1 className="encabezado-elegante">
-          Desarrollados en WindowsForms con <span>C#</span> y{" "}
-          <span>SQL Server</span>.
-        </h1>
 
-        <div className="contenedor-app">
-          <Aplicacion
-            encabezado={"OblioN Tycons"}
-            background={OTclasic}
-            parrafo={"Nuestro primer gran proyecto."}
-            descripcion={
-              "Bienvenido a OblioN Tycons, un software especialmente desarrollado para Invocadores. Como parte del gremio de Invocadores, " +
-              " tu deber es distribuir mercancías por OblioN, lo que beneficia a sus habitantes y a ti. Sin embargo, no todo es tan fácil, y " +
-              " lo veras cuando tus invocaciones se enfrenten a diferentes enemigos en la Colina de las Sombras, donde los contratos colocados por el gremio de invocadores te brindasen de la moneda más valiosa de OblioN, los Fragmentos ARCAICOS." +
-              " Disfruta de una experiencia tycon, mientras obtienes todas las invocaciones posibles hasta la fecha."
-            }
-          />
-          <Aplicacion
-            encabezado={"Kooben Inventario 2.0E"}
-            background={KoobenI}
-            parrafo={"El antes y despues de nuestras aplicaciones."}
-            descripcion={
-              "Gestor de inventario para restaurantes que permite controlar el inventario, tener a la mano las recetas, asignar restricciones a empleados y tener un control sobre las ventas realizadas. Esta aplicación fue desarrollada como proyecto final y " +
-              " evaluada en tres ocasiones. Ahora está disponible de forma gratuita para descargar, probar y puntuar, en la versión mas completa, mejorada, rediseña y optimizada para mejorar la" +
-              " experiencia que KI 1.1.1 ya ofrecía."
-            }
-          />
-          <Aplicacion
-            encabezado={"OTS Edicion Reliquia"}
-            background={OTS}
-            parrafo={"Mejorando clasicos de DyX."}
-            descripcion={
-              "Bienvenido a OblioN, la ciudad para invocadores más grande de ArkaNe, aquí podrás trabajar como recolector y comerciante para ganar la mayor cantidad de créditos posibles, o trabajar como invocador combatiendo con las distintas criaturas " +
-              " que el gremio a encontrado a los alrededores de OblioN. Conviértete en un guardián prestigiado o en el mas rico de todo el lugar. "
-            }
-          />
+        <h1 className="encabezado-elegante2">Proyectos en WindowsForms</h1>
+
+        <div className="div-seccion">
+        {WindosForms.map((app, index) => (
+          <div key={index} className="contenedor-app" onClick={() => handleAplicacionClick(app.encabezado, app.frase, app.descripcion, app.empresa)}>
+            <Aplicacion
+              background={app.background}
+              encabezado={app.encabezado}
+              parrafo={app.frase}
+              descripcion={app.descripcion}
+            />
+          </div>
+        ))}
         </div>
 
-        <div className="contenedor-app">
-          <Aplicacion
-            encabezado={"2020"}
-            background={Comienzo}
-            parrafo={"Primeros pasos"}
-            descripcion={
-              "Todos comenzamos alguna vez en algo que se convierte en más que un pasatiempo. Disfrutamos cada nueva creación y damos vida a nuestras ideas. DylniroX Estudios™ es hoy nuestra marca de presentación, y nuestros sistemas son la imagen que lo viste. Miremos estrellas juntos mientras disfrutamos de lo que más nos gusta hacer."
-            }
-          />
-          <Aplicacion
-            encabezado={"OblioN Tycons 2.0"}
-            background={OTNoLanzada}
-            parrafo={"Sistema en el olvido"}
-            descripcion={
-              "La versión 2.0 de OT Edición Estándar buscaba dar un giro total en el diseño de la aplicación y mejorar muchos aspectos de la misma. Sin embargo, esta versión nunca llegó a ver la luz y fue reemplazada posteriormente por OTS Edición Reliquia."
-            }
-          />
-          <Aplicacion
-            encabezado={"La estafa feliz"}
-            background={LaEstafaFelis}
-            parrafo={"Proyecto escolar."}
-            descripcion={
-              "Aplicación para tiendas que permite la organización, gestión y control del inventario, ofreciendo la posibilidad de realizar pedidos de aquellos productos en escasez de existencias, y de realizar ventas, para aquellos clientes interesados. " +
-              "Cuenta con un sistema de soporte integrado, ventanas flotantes y sistema de notificaciones para la confirmación de transacciones. "
-            }
-          />
-          <Aplicacion
-            encabezado={"River Manufacturing"}
-            background={RiverManufacturing}
-            parrafo={"Evaluacion de examen."}
-            descripcion={
-              "Propuesta de diseño para sistema de rastreo de transportes de carga. Permite localizar la ubicación de los camiones, destinar rutas de trabajo, obtener un historial de rutas y ver estadísticas en función a las operaciones que realiza la empresa."
-            }
-          />
-          <Aplicacion
-            encabezado={"Eva Software"}
-            background={EvaSoftware}
-            parrafo={"Migrador de Base de Datos."}
-            descripcion={
-              "Este sistema es un complemento lanzado por Estudios Dylnirox para Oblion Tycons (OT) con la finalidad de poder migrar datos de una base de datos (BD) desactualizada, a una BD acorde a la nueva versión de OT.   Esto, por que en su momento OT no contaba " +
-              "con una BD bien estructurada y normalizada, por lo que incluir nuevo contenido afectaba a BD de versiones anteriores. Actualmente este sistema ya no es requerido en la versión mejorada de OT, Oblion Tycons Softwre Edición Reliquia cuenta con una base de " +
-              "datos a la que el mismo sistema actualiza, y donde a su vez, recibió una planificación para prevenir cambios y ofrecer una BD mas estable."
-            }
-          />
+        <h1 className="encabezado-elegante2">Proyectos en WPF</h1>
 
-          <Aplicacion
-            encabezado={"Mun Wai ONE"}
-            background={MWOWEB}
-            parrafo={"Panel de control de Valio."}
-            descripcion={
-              "El panel de control de nuestra asistente virtual llega para sustituir el primer panel de configuración lanzado con Maya-D5. Este panel permite controlar, " +
-              "administrar y consultar los comandos de voz y respuestas que nuestra asistente acepta, así como configurar las aplicaciones que deseas abrir o los " +
-              "sitios a los que deseas navegar mediante voz. Este panel administrativo incorpora lo mejor que Estudios Dylnirox™ " +
-              "tenía al momento de desarrollo, innovando con nuevas prácticas de desarrollo junto a interfaces más nutridas y una experiencia de navegación mejorada. "
-            }
-          />
-
-          <Aplicacion
-            encabezado={"Maya-D5"}
-            background={D5WEB}
-            parrafo={"Asistente virtaul."}
-            descripcion={
-              "La distribución 5 (D5) de nuestra asistente virtual para ordenadores llega con mejoras en la comunicación. " +
-              "Ahora puede aceptar comandos de voz a voz, texto a texto y texto a voz. D5 se desarrolló teniendo en cuenta todo lo " +
-              "aprendido por Estudios Dylnirox™ hasta el momento de desarrollo. Contempla una interfaz más nutrida y una experiencia mejorada, " +
-              "con sistema de silencio, configuración, cambios de plantilla en la interfaz, mejoras en la comunicación y comprensión de palabras, " +
-              "así como la posibilidad de entender peticiones más extensas. " +
-              "Hasta la fecha, Estudios Dylnirox™ ha dado por finalizado el desarrollo, por lo que un lanzamiento oportuno parece lejano."
-            }
-          />
+        <div className="div-seccion">
+        {WPF.map((app, index) => (
+          <div key={index} className="contenedor-app" onClick={() => handleAplicacionClick(app.encabezado, app.frase, app.descripcion, app.empresa)}>
+            <Aplicacion
+              background={app.background}
+              encabezado={app.encabezado}
+              parrafo={app.frase}
+              descripcion={app.descripcion}
+            />
+          </div>
+        ))}
         </div>
 
-        <h1 className="encabezado-elegante">
-          Desarrollados en WPF con C#, XAML y SQL Server.
-        </h1>
-        <div className="contenedor-app">
-          <Aplicacion
-            encabezado={"Kaatik Software™"}
-            background={Kaatatik}
-            parrafo={"Lo nuevo llego a DyX."}
-            descripcion={
-              "Nuestro software echo a la medida para la organización, gestión y control de pedidos. Incluye roles de usuarios, " +
-              "personalización de pedidos y control de ventas. "
-            }
-          />
-          <Aplicacion
-            encabezado={"Lirix Store™"}
-            background={Lirix}
-            parrafo={"Descubriendo sueños."}
-            descripcion={
-              "Una tienda de aplicaciones elegante propuesta para concursar en INOVATEC, integra las mejores novedades al llevarnos a explorar nuevas formas de desarrollar aplicaciones. Lirix es la primera aplicación que cuenta con objetos dinámicos" +
-              " y la posibilidad de descargar otros sistemas desde la nube. Un elegante diseño contrastado con colores oscuros e impulsado con aceleración por Hardware hacen de Lirix el proyecto con mejor UI y UX de DylniroX™. Este proyecto ha sido " +
-              " desarrollado por DylniroX Software™ | Azulados y Asociados Corp."
-            }
-          />
-          <Aplicacion
-            encabezado={"Lirix Developer™"}
-            background={LirixDev}
-            parrafo={"Donde los sueños comienzan."}
-            descripcion={
-              "El complemento ideal para los desarrolladores que publican sus sistemas en nuestra tienda. Con Lirix Dev™, " +
-              "accedes a un entorno con herramientas de administración y control para tus aplicaciones, así como utilidades para estar en constante comunicación con tus clientes."
-            }
-          />
-          <Aplicacion
-            encabezado={"ThoughtTrail™"}
-            background={TT}
-            parrafo={"Camino del pensamiento."}
-            descripcion={
-              "¿Sabías que ejercitar la mente recordando cosas importantes es beneficioso? Sin embargo, a veces todos necesitamos un poco de ayuda para no olvidar. Por eso, te presentamos nuestra elegante aplicación de notas. Refrescar tus memorias nunca fue tan sencillo."
-            }
-          />
+        <h1 className="encabezado-elegante2">Proyectos en .Net</h1>
+
+        <div className="div-seccion">
+        {NetCores.map((app, index) => (
+          <div key={index} className="contenedor-app" onClick={() => handleAplicacionClick(app.encabezado, app.frase, app.descripcion, app.empresa)}>
+            <Aplicacion
+              background={app.background}
+              encabezado={app.encabezado}
+              parrafo={app.frase}
+              descripcion={app.descripcion}
+            />
+          </div>
+        ))}
         </div>
+
       </div>
 
-      <h1 className="encabezado-elegante">
-        Desarrollados en .Net Core y SQL Server.
-      </h1>
-      <div className="contenedor-app">
-        <Aplicacion
-          encabezado={"Portal Lirix™"}
-          background={LirixPortal}
-          parrafo={"Los sueños viajan por el aire a oidos de muchos"}
-          descripcion={
-            "Un entorno combinado con sistemas que se integran tanto en nuestras plataformas de escritorio como en la web. Accede a las novedades en tiempo real sin necesidad de realizar descargas, todo directamente desde la web."
-          }
-        />
-      </div>
+      <h1 className="encabezado-elegante2">Proximamente llegaran mas...</h1>
 
-      <h1 className="encabezado-elegante">
-        Otros proyectos llegaran con el tiempo a Cardinal, esperalos.
-      </h1>
       <AppDestacada />
+
+      {visible && (
+        <div className="div-contenedor-informacion" onClick={handleClick}>
+          <div className="div-flotante-fondo" />
+
+          <div className="div-flotante-informacion">
+            <div className="div-informacion-encabezado">
+              <h1>{info.encabezado}</h1>
+              <p>{info.frase}</p>
+            </div>
+            <div>
+              <p className="p-flotante-descripcion">{info.descripcion}</p>
+            </div>
+            <div className="div-flotante-pie">
+              <p>Desarrollado por:</p>
+              <p>{info.desarrollador}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

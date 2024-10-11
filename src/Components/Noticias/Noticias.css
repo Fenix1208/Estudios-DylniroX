@@ -1,14 +1,16 @@
 .noticias-container {
-  margin-top: 5%;
+  background: linear-gradient(135deg, #2C3E50, #4CA1AF); /* Degradado sutil */
+  padding: 10%;
   align-items: center;
   text-align: center;
-  margin-bottom: 10%;
+  color: #fff;
 }
 
 .img-noticias {
   border-radius: 10px;
   height: Auto;
   width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Sombra más suave */
 }
 
 .img-noticiasDest {
@@ -17,10 +19,19 @@
   width: 100%;
 }
 
+.div-contenedor-destacado{
+  color: transparent;
+  background: linear-gradient(to bottom, #96CEFF, #ececec); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .Noticias-encabezado {
   font-size: 20px;
   text-align: left;
   margin: 2%;
+  color: #96CEFF; 
 }
 
 .contenedor-difucion {
@@ -33,7 +44,7 @@
 
 @media (max-width: 600px) {
   .noticias-container {
-    margin-top: 20%;
+    padding: 20px;
   }
 
   .img-noticias {

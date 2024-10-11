@@ -13,51 +13,53 @@ body {
 
 .div-inicio-v2 {
   position: relative;
-  width: 100%; 
-  height: 100%;
-}
-
-video {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  height: 100%;
+  background: linear-gradient(135deg, #2C3E50, #4CA1AF); /* Degradado sutil */
 }
 
 .div-inicio-v2 h1 {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
-  font-size: 120px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 80px; /* Ajuste para hacerlo menos dominante */
   text-align: center;
-  font-weight: 400px;
-  border-radius: 20px 20px 0px 0px;
-  padding: 10px;
+  font-weight: 300; /* Ligeramente más delgado */
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
   margin: 0px;
-  box-shadow: 5px 5px 15px #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más suave */
+  transition: all 0.3s ease-in-out; /* Transición suave */
 }
 
 .div-inicio-v2 p {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-  font-size: 40px;
+  font-size: 24px; /* Ajuste para mejor legibilidad */
   text-align: center;
-  padding: 5px;
-  border-radius: 0px 0px 20px 20px;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
   margin: 4px 0px 0px 0px;
-  box-shadow: 5px 5px 15px gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más suave */
+  transition: all 0.3s ease-in-out; /* Transición suave */
 }
-
 
 .div-container-textox-inicio {
   position: absolute;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   mix-blend-mode: multiply;
+  font-family: 'Roboto', sans-serif; /* Fuente elegante */
 }
+
+.div-destacados-principal{
+  position: absolute;
+  bottom: 0;
+  color: #96CEFF; 
+  margin: 1%;
+}
+
 
 
 @media (max-width: 600px) {

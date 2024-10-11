@@ -1,5 +1,5 @@
 import "./AppDestacada.css";
-import cardinal from "../Img/CardinaldeDyXAppDesc.png";
+import cardinal from "../Img/CardinalDyXAppDestock.png";
 
 const AppDestacada = () => {
   return (

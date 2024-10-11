@@ -12,10 +12,9 @@
 }
 
 .encabezado-elegante-Noticias {
-    font-family: 'Comic Sans MS', cursive;
     text-align: left;
     font-size: 18px;
-    color: black; 
+    color: #96CEFF; 
     letter-spacing: 1px;
     margin-left: 2%;
   }
@@ -23,10 +22,12 @@
   .fecha-contenido-noticias{
     margin-right: 2%;
     text-align: right;
+    color: #62B6FF;
   }
 
   .parrafo-contenido-noticias{
     margin-left: 2%;
     margin-right: 2%;
     text-align: justify;
+    color: #ececec;
   }

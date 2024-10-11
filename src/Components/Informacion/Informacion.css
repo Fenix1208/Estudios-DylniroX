@@ -1,57 +1,43 @@
 .main-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Ocupa toda la altura de la ventana */
-    padding-left: 0px; /* Espacio a la izquierda */
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  padding-left: 0px; /* Espacio a la izquierda */
+  background: linear-gradient(135deg, #2c3e50, #4ca1af); /* Degradado sutil */
+}
 
-  .contenedor-encabezado{
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.contenedor-encabezado {
+  text-align: center;
+  margin-bottom: 20px;
+  color: transparent;
+  background: linear-gradient(to bottom, #96ceff, #ececec);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  .encabezado-parrafo{
-    text-align: center;
-  }
+/* Element */
 
-  .btn-Notas{
-    background: transparent;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10%;
-    cursor: pointer;
-    border: 0;
-  }
+.content-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  .btn-Notas:hover{
-    background: #C8C8C8;
-  }
+.h1-element {
+  font-size: 18px;
+  color: #96ceff;
+}
 
-  /* Element */
+.p-element {
+  text-align: justify;
+  color: #ececec;
+}
 
-  .content-container {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    overflow-y: hidden; /* Oculta el contenido al principio */
-    max-height: calc(90vh - 40px); /* Resta el espacio de padding */
+@media (max-width: 600px) {
+  .main-page {
+    padding: 10%;
   }
-
-  .h1-element{
-    font-size: 18px;
-  }
-  
-  .p-element{
-    text-align: justify;
-  }
-
-  @media (max-width: 600px) {
-    .main-page {
-      margin: 10%;
-      margin-top: 10%;
-      margin-bottom: 60%;
-    }
-  }
-  
+}

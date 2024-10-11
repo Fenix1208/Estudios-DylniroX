@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Principal.css";
-import background from "../Img/FondoCDWeb.png";
-import media from "../Img/FondoCardinalInicio.mp4";
+import background from "../Img/FondoCDWeb2.png";
 
 const Principal = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -38,6 +37,11 @@ const Principal = () => {
           <p className="sub-text">{texts[textIndex]}</p>
         </div>
       </div>
+
+      <div className="div-destacados-principal">
+        <p>Destacados: OblioN Tycons Software™ | K`oóben Inventario | K`aátik Software | ThoughtTrail™ | Cardinal de DyX</p>
+      </div>
+
     </div>
   );
 };

@@ -5,11 +5,11 @@ import "./Noticias.css";
 import ContenidoNoticia from "./ContenidoNoticia.component";
 import Avances from "./Avances.component";
 
-import N1 from "../Noticias Img/BannerCardinal.png";
-import N2 from "../Noticias Img/PromocionApps.png";
+import N1 from "../Noticias Img/ThoughtTrail.png";
+import N2 from "../Noticias Img/BannerCardinal.png";
 import N3 from "../Noticias Img/PromocionMaya.png";
 import N4 from "../Noticias Img/Banners.png";
-import N5 from "../Noticias Img/ThoughtTrail.png";
+import N5 from "../Noticias Img/2_0CardinalDyXWeb.png";
 
 const images = [
   N5,
@@ -46,7 +46,7 @@ const Noticias = () => {
 
   return (
     <div className="noticias-container">
-      <div>
+      <div className="div-contenedor-destacado">
         <h1>Mural de destacados</h1>
         <p>Estamos realizando cambios.</p>
       </div>
@@ -72,7 +72,7 @@ const Noticias = () => {
           fecha="23/07/2024"
           estado="Demo"
           contenido={
-            "ThoughtTrail™ ha llegado a DylnrioX, nuestra primera aplicación para uso local sin conexión a bases de datos. Está disponible exclusivamente para nuestros usuarios de software. Se trata de un sistema " +
+            "ThoughtTrail™ ha llegado a DylnrioX, nuestra primera aplicación para uso local sin conexión a bases de datos. Está disponible exclusivamente para nuestros usuarios de software EXCLUSIVO. Se trata de un sistema " +
             "simple pero directo para la elaboración y almacenamiento de notas, diseñado para dar seguimiento y orden a tus ideas. Descárgalo como socio de software EXCLUSIVO."
           }
         />
@@ -109,6 +109,15 @@ const Noticias = () => {
       </h1>
 
       <div className="contenedor-difucion">
+      <ContenidoNoticia
+          encabezado="Cardinal de DyX | WEB: Versión 2.0"
+          fecha="10/10/2024"
+          contenido={
+            "Bienvenidos a la versión 2.0 de Cardinal de DyX. Descubre nuestro renovado sitio, ahora con un elegante color de fondo, animaciones sofisticadas y características innovadoras. \n" +
+            "En esta actualización, destacamos el rediseño integral de nuestro muestrario, que ha sido optimizado para ofrecer una experiencia más fluida y atractiva al mostrar nuestras aplicaciones. Además, hemos mejorado la manera de consultar información, lo que resulta en un rendimiento superior del sitio y una experiencia de usuario inigualable." +
+            "\nEstamos entusiasmados de presentarte este nuevo diseño. Explora con nosotros y contemplemos juntos un horizonte lleno de posibilidades.\n"
+          }
+        />
         <ContenidoNoticia
           encabezado="Cardinal de DyX | WEB: Versión 1.9"
           fecha="16/08/2024"

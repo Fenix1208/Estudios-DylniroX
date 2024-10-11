@@ -22,7 +22,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
   font-size: 16px;
-  color: black;
+  color: #96CEFF;
   letter-spacing: 1px;
   margin-left: 2%;
 }
@@ -31,12 +31,14 @@
   margin-right: 2%;
   font-size: 12px;
   text-align: right;
+  color: #62B6FF;
 }
 
 .parrafo-contenido-Avances {
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
+  color: #ececec;
 }
 
 @media (max-width: 600px) {
