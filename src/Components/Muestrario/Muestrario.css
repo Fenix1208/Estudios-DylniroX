@@ -93,11 +93,7 @@
 .p-flotante-descripcion {
   text-align: center;
   word-wrap: break-word;
-  color: transparent;
-  background: linear-gradient(to bottom, #96ceff, #ececec);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ececec;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
