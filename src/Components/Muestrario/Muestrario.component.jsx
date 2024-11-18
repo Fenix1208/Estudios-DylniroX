@@ -16,6 +16,7 @@ import Comienzo from "../Img/imgapps/ComienzoWEB.png";
 import MWOWEB from "../Img/imgapps/MWOWEB.png";
 import D5WEB from "../Img/imgapps/D5WEB.png";
 import TT from "../Img/imgapps/ThoughtTrailIcon.png";
+import MN from "../Img/imgapps/MIUNcon.png";
 import AppDestacada from "../AppDestacada/AppDestacada.component";
 
 const Muestrario = () => {
@@ -67,7 +68,7 @@ const Muestrario = () => {
       encabezado: "K`oóben Inventario 2.0E",
       frase: "El antes y despues de nuestras aplicaciones.",
       descripcion: "Gestor de inventario para restaurantes que permite controlar el inventario, tener a la mano las recetas, asignar restricciones a empleados y tener un control sobre las ventas realizadas. Esta aplicación fue desarrollada como proyecto final y evaluada en tres ocasiones. Ahora está disponible de forma gratuita para descargar, probar y puntuar, en la versión mas completa, mejorada, rediseña y optimizada para mejorar la experiencia que KI 1.1.1 ya ofrecía.",
-      empresa: "Dylnriox Software | K`oóben Software"
+      empresa: "Dylnriox Software™ | K`oóben Software™"
     },
     {
       background: OTS,
@@ -144,7 +145,7 @@ const Muestrario = () => {
       background: Kaatatik,
       encabezado: "K`aátik Software",
       frase: "Lo nuevo llego a DyX.",
-      descripcion:                   "Nuestro software echo a la medida para la organización, gestión y control de pedidos. Incluye roles de usuarios, " +
+      descripcion: "Nuestro software echo a la medida para la organización, gestión y control de pedidos. Incluye roles de usuarios, " +
       "personalización de pedidos y control de ventas. ",
       empresa: "Dylnirox Software™"
     },
@@ -154,7 +155,7 @@ const Muestrario = () => {
       frase: "Descubriendo sueños.",
       descripcion: "Una tienda de aplicaciones elegante propuesta para concursar en INOVATEC, integra las mejores novedades al llevarnos a explorar nuevas formas de desarrollar aplicaciones. Lirix es la primera aplicación que cuenta con objetos dinámicos" +
                     " y la posibilidad de descargar otros sistemas desde la nube. Un elegante diseño contrastado con colores oscuros e impulsado con aceleración por Hardware hacen de Lirix el proyecto con mejor UI y UX de DylniroX™. Este proyecto ha sido " +
-                    " desarrollado por DylniroX Software™ | Azulados y Asociados Corp.",
+                    " desarrollado por DylniroX Software™ | Azulados y Asociados S.A de C.V.",
       empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V"
     },
     {
@@ -170,7 +171,19 @@ const Muestrario = () => {
       encabezado: "ThoughtTrail™",
       frase: "Camino del pensamiento.",
       descripcion: "¿Sabías que ejercitar la mente recordando cosas importantes es beneficioso? Sin embargo, a veces todos necesitamos un poco de ayuda para no olvidar. Por eso, te presentamos nuestra elegante aplicación de notas. Refrescar tus memorias nunca fue tan sencillo.",
-      empresa: "Dylnirox Software™"
+      empresa: "Dylnirox Software™ | Dylnirox Desing™"
+    },
+    {
+      background: MN,
+      encabezado: "MIUN",
+      frase: "El sucesor llego a Estudios Dylnirox™.",
+      descripcion: "Te presentamos dos potentes simuladores: Round Robin y Round Robin con Prioridad. Estos algoritmos lógicos ahora vienen acompañados por un simulador revolucionario que: " 
+                 + " 1. Acepta nuevos procesos sin detenerse."
+                 + " 2. Incorpora un sistema interactivo de bloqueo."
+                 + " 3. Ofrece un código más limpio y optimizado."
+                 + " 4. Incluye información relevante sobre los algoritmos."
+                 + " MIUN es el sistema que no pudimos completar en su momento, pero hoy lo traemos de vuelta con mejoras significativas y abordando cada uno de los desafíos que se nos complicaron antes.",
+      empresa: "Dylnirox Software™ | Dylnirox Desing™"
     }
   ];
 

@@ -45,7 +45,7 @@ const FamiliaDyX = () => {
             </p>
             <h1 className="encabezado-elegante">
               Actualmente hemos colaborado con “Grupo TEC” y “Asociados y
-              Azulados Corp”, equipos de los que hemos aprendido mucho y llegado a
+              Azulados S.A de C.V, equipos de los que hemos aprendido mucho y llegado a
               grandes proyectos en conjunto.
             </h1>
             <p className="parrafo-informacion">
@@ -62,7 +62,7 @@ const FamiliaDyX = () => {
               proyecto final en dos ocaciones.
             </p>
             <p className="parrafo-informacion">
-              Azulados y Asociados Corp: El ultimo equipo de trabajo en el que hemos
+              Azulados y Asociados S.A de C.V: El ultimo equipo de trabajo en el que hemos
               estado, nos permitió la elaboración y entrega de Lirix Store, un
               software que finalizo con calificación alta y participación en
               concurso de innovación. Lirix se desarrollo en la nueva plataforma
