@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Estudios-DylniroX/static/css/main.bdf987f1.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.e31f699d.js",
+    "main.css": "/Estudios-DylniroX/static/css/main.367ba09b.css",
+    "main.js": "/Estudios-DylniroX/static/js/main.75a2e53b.js",
     "static/js/453.200db5ff.chunk.js": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js",
     "static/media/CardinalDyXAppDestock.png": "/Estudios-DylniroX/static/media/CardinalDyXAppDestock.5c0ffd7d2491689e4e20.png",
+    "static/media/noticiaMiunCD.png": "/Estudios-DylniroX/static/media/noticiaMiunCD.057be46f6f5ca2b8898a.png",
     "static/media/Banners.png": "/Estudios-DylniroX/static/media/Banners.d5e5f3642623444b763e.png",
     "static/media/FondoCDWeb2.png": "/Estudios-DylniroX/static/media/FondoCDWeb2.c050ccc80e8c6fdd6436.png",
     "static/media/PromocionMaya.png": "/Estudios-DylniroX/static/media/PromocionMaya.06289bb154d8ed96fa02.png",
+    "static/media/MIUNcon.png": "/Estudios-DylniroX/static/media/MIUNcon.a1f3e351982383ade3f8.png",
     "static/media/ComienzoWEB.png": "/Estudios-DylniroX/static/media/ComienzoWEB.20400f5f9e302e3474f0.png",
     "static/media/LirixMenu1.png": "/Estudios-DylniroX/static/media/LirixMenu1.d65ac4fee155ce931af8.png",
     "static/media/ThoughtTrail.png": "/Estudios-DylniroX/static/media/ThoughtTrail.bbb66f2d77824966dd0a.png",
@@ -27,12 +29,12 @@
     "static/media/MWOWEB.png": "/Estudios-DylniroX/static/media/MWOWEB.a36f2434680c6e333e78.png",
     "static/media/OTSprevWEB.png": "/Estudios-DylniroX/static/media/OTSprevWEB.f7f9231f5e4bc7e3b212.png",
     "index.html": "/Estudios-DylniroX/index.html",
-    "main.bdf987f1.css.map": "/Estudios-DylniroX/static/css/main.bdf987f1.css.map",
-    "main.e31f699d.js.map": "/Estudios-DylniroX/static/js/main.e31f699d.js.map",
+    "main.367ba09b.css.map": "/Estudios-DylniroX/static/css/main.367ba09b.css.map",
+    "main.75a2e53b.js.map": "/Estudios-DylniroX/static/js/main.75a2e53b.js.map",
     "453.200db5ff.chunk.js.map": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdf987f1.css",
-    "static/js/main.e31f699d.js"
+    "static/css/main.367ba09b.css",
+    "static/js/main.75a2e53b.js"
   ]
 }
