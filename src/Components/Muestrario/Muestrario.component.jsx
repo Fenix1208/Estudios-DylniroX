@@ -17,6 +17,7 @@ import MWOWEB from "../Img/imgapps/MWOWEB.png";
 import D5WEB from "../Img/imgapps/D5WEB.png";
 import TT from "../Img/imgapps/ThoughtTrailIcon.png";
 import MN from "../Img/imgapps/MIUNcon.png";
+import QuillNote from "../Img/imgapps/QuillNoteCom.png";
 import AppDestacada from "../AppDestacada/AppDestacada.component";
 
 const Muestrario = () => {
@@ -184,7 +185,14 @@ const Muestrario = () => {
                  + " 4. Incluye información relevante sobre los algoritmos."
                  + " MIUN es el sistema que no pudimos completar en su momento, pero hoy lo traemos de vuelta con mejoras significativas y abordando cada uno de los desafíos que se nos complicaron antes.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™"
-    }
+    },
+    {
+      background: QuillNote,
+      encabezado: "Quill Note",
+      frase: "Camino del pensamiento.",
+      descripcion: "Sistema heredado de ThoughtTrail que ofrece una nueva experiencia en UI y UX, incorporando nuevas caracteristicas e incluyendo funciones de ThoughtTrail.",
+      empresa: "Dylnirox Software™ | Dylnirox Desing™"
+    },
   ];
 
   const NetCores = [
@@ -238,7 +246,7 @@ const Muestrario = () => {
         ))}
         </div>
 
-        <h1 className="encabezado-elegante2">Proyectos en .Net</h1>
+        <h1 className="encabezado-elegante2">Proyectos en .Net Core</h1>
 
         <div className="div-seccion">
         {NetCores.map((app, index) => (

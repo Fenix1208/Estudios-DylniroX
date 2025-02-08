@@ -5,7 +5,7 @@ import "./Noticias.css";
 import ContenidoNoticia from "./ContenidoNoticia.component";
 import Avances from "./Avances.component";
 
-import N1 from "../Noticias Img/ThoughtTrail.png";
+import N1 from "../Noticias Img/Quill Note.png";
 import N2 from "../Noticias Img/BannerCardinal.png";
 import N3 from "../Noticias Img/PromocionMaya.png";
 import N4 from "../Noticias Img/Banners.png";
@@ -70,38 +70,12 @@ const Noticias = () => {
 
       <div className="contenedor-difucion">
       <Avances
-          encabezado="Nuevo lanzamiento de software"
-          fecha="23/07/2024"
+          encabezado="Nueva actualizacion"
+          fecha="04/01/2025"
           estado="Demo"
           contenido={
-            "ThoughtTrail™ ha llegado a DylnrioX, nuestra primera aplicación para uso local sin conexión a bases de datos. Está disponible exclusivamente para nuestros usuarios de software EXCLUSIVO. Se trata de un sistema " +
-            "simple pero directo para la elaboración y almacenamiento de notas, diseñado para dar seguimiento y orden a tus ideas. Descárgalo como socio de software EXCLUSIVO."
-          }
-        />
-        <Avances
-          encabezado="Presentación de Software 2024"
-          fecha="29/06/2024"
-          estado="Postergado"
-          contenido={
-            "Nos complace informar que actualmente nuestros equipos se encuentran desarrollando sistemas para terceros. Debido a esta prioridad, hemos decidido posponer nuestro evento de presentación de software 2024 hasta nuevo aviso. Esperamos que esta decisión nos permita mostrar aún más sistemas en dicha presentación." +
-            " \nGracias por tu tiempo, prometemos regresar."
-          }
-        />
-        <Avances
-          encabezado="Evento de Verano en OTS"
-          fecha="30/05/2024"
-          estado="Finaliza el 10/08/2024"
-          contenido={
-            "¡Regresa el evento de verano a OblioN Tycons Software en su Edición Reliquia! Por tiempo limitado, adquiere tantas runas como desees a precios rebajados. Es el momento ideal para mejorar tus invocaciones. ¡Aprovecha estas ofertas antes de que se vayan por un año más!"
-          }
-        />
-        <Avances
-          encabezado="Ecosistema de Lirix™"
-          fecha="24/05/2024"
-          estado="Finalizado"
-          contenido={
-            "Dylnirox Software™, en colaboración con Azulados y Asociados S.A de C.V, trae de regreso a Lirix Store™. Ahora, con una serie de complementos destinados tanto a clientes como a desarrolladores. Además, hemos rediseñado las interfaces de Lirix Store™, implementado mejoras de rendimiento y añadido nuevas funcionalidades para brindar una experiencia más confortable a nuestros clientes." +
-            " Con estos cambios, damos la bienvenida al Ecosistema de Lirix™ y marcamos una nueva ruta de desarrollo para esta serie de sistemas."
+            "ThoughtTrail se actualiza a la versión 1.4 recibiendo cambios en su codigo principal para incluir Quill Note como nuevo sistema heredado. " +
+            "Aprovecha las nuevas caracteristicas y mejoras en UI y UX en la versión 2.0 de ThoughtTrail y Quill Note disponibles ahora. Descárgalo como socio de software EXCLUSIVO."
           }
         />
       </div>
