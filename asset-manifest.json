@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Estudios-DylniroX/static/css/main.367ba09b.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.75a2e53b.js",
+    "main.js": "/Estudios-DylniroX/static/js/main.b1770690.js",
     "static/js/453.200db5ff.chunk.js": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js",
     "static/media/CardinalDyXAppDestock.png": "/Estudios-DylniroX/static/media/CardinalDyXAppDestock.5c0ffd7d2491689e4e20.png",
     "static/media/noticiaMiunCD.png": "/Estudios-DylniroX/static/media/noticiaMiunCD.057be46f6f5ca2b8898a.png",
@@ -11,12 +11,13 @@
     "static/media/MIUNcon.png": "/Estudios-DylniroX/static/media/MIUNcon.a1f3e351982383ade3f8.png",
     "static/media/ComienzoWEB.png": "/Estudios-DylniroX/static/media/ComienzoWEB.20400f5f9e302e3474f0.png",
     "static/media/LirixMenu1.png": "/Estudios-DylniroX/static/media/LirixMenu1.d65ac4fee155ce931af8.png",
-    "static/media/ThoughtTrail.png": "/Estudios-DylniroX/static/media/ThoughtTrail.bbb66f2d77824966dd0a.png",
     "static/media/ThoughtTrailIcon.png": "/Estudios-DylniroX/static/media/ThoughtTrailIcon.421e226cc34309ecac76.png",
     "static/media/OTSWeb.png": "/Estudios-DylniroX/static/media/OTSWeb.52633bcf3058014b9e3d.png",
+    "static/media/Quill Note.png": "/Estudios-DylniroX/static/media/Quill Note.de7ee03606d617f78629.png",
     "static/media/2_0CardinalDyXWeb.png": "/Estudios-DylniroX/static/media/2_0CardinalDyXWeb.81549f1b50bfff339f7b.png",
     "static/media/OTclasic.png": "/Estudios-DylniroX/static/media/OTclasic.65fb6ec4f002d27acd90.png",
     "static/media/KSWeb.png": "/Estudios-DylniroX/static/media/KSWeb.f27cdd62282b207d2f9d.png",
+    "static/media/QuillNoteCom.png": "/Estudios-DylniroX/static/media/QuillNoteCom.bb3afa5cc431e32a46c6.png",
     "static/media/BannerCardinal.png": "/Estudios-DylniroX/static/media/BannerCardinal.166343c1f45ed36d82f2.png",
     "static/media/LirixPortalWebtwo.png": "/Estudios-DylniroX/static/media/LirixPortalWebtwo.7dc1704ec631881ce1bc.png",
     "static/media/LirixDeveloperWebtwo.png": "/Estudios-DylniroX/static/media/LirixDeveloperWebtwo.ba9f215abb896122e66a.png",
@@ -30,11 +31,11 @@
     "static/media/OTSprevWEB.png": "/Estudios-DylniroX/static/media/OTSprevWEB.f7f9231f5e4bc7e3b212.png",
     "index.html": "/Estudios-DylniroX/index.html",
     "main.367ba09b.css.map": "/Estudios-DylniroX/static/css/main.367ba09b.css.map",
-    "main.75a2e53b.js.map": "/Estudios-DylniroX/static/js/main.75a2e53b.js.map",
+    "main.b1770690.js.map": "/Estudios-DylniroX/static/js/main.b1770690.js.map",
     "453.200db5ff.chunk.js.map": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.367ba09b.css",
-    "static/js/main.75a2e53b.js"
+    "static/js/main.b1770690.js"
   ]
 }
