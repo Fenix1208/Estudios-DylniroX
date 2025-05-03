@@ -34,4 +34,18 @@
 }
 
 
+.btn-consulta-video{
+  background-color: #2C3E50;
+  color: #4CA1AF;
+  border: 0;
+  border-radius: 12px;
+  padding: 8px 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-consulta-video:hover{
+  color: white;
+  margin: 0;
+}
 

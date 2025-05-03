@@ -5,20 +5,18 @@ import "./Noticias.css";
 import ContenidoNoticia from "./ContenidoNoticia.component";
 import Avances from "./Avances.component";
 
-import N1 from "../Noticias Img/Quill Note.png";
-import N2 from "../Noticias Img/BannerCardinal.png";
-import N3 from "../Noticias Img/PromocionMaya.png";
-import N4 from "../Noticias Img/Banners.png";
-import N5 from "../Noticias Img/2_0CardinalDyXWeb.png";
-import N6 from "../Noticias Img/noticiaMiunCD.png";
+import N1 from "../Noticias Img/NoticiaCD.png";
+import N2 from "../Noticias Img/QuillNoteFamilia.png";
+import N3 from "../Noticias Img/LunaHarmonyNoticia.png";
+import N4 from "../Noticias Img/2_0CardinalDyXWeb.png";
+import N5 from "../Noticias Img/PromocionMaya.png";
 
 const images = [
-  N5,
-  N6,
   N1,
   N2,
   N3,
   N4,
+  N5,
   // Agrega más imágenes aquí
 ];
 
@@ -78,6 +76,17 @@ const Noticias = () => {
             "Aprovecha las nuevas caracteristicas y mejoras en UI y UX en la versión 2.0 de ThoughtTrail y Quill Note disponibles ahora. Descárgalo como socio de software EXCLUSIVO."
           }
         />
+        <Avances
+          encabezado="Nuevos Lanzamientos"
+          fecha="02/05/2025"
+          estado="Pruebas"
+          contenido={
+            "¡Descubre nuestras nuevas creaciones! Hemos lanzado dos innovadores sistemas:"
+            + "\n📌 Quill Note, una aplicación intuitiva y elegante para tomar notas, ahora disponible en Android."
+            + "\n🎵 LunaHarmony, un sofisticado widget para el control de música, que combina funcionalidad y diseño armonioso."
+            + "\nExplora estas novedades en el mural de aplicaciones y lleva tu productividad y experiencia musical al siguiente nivel. ¡No te lo pierdas!"
+          }
+        />
       </div>
 
       <h1 className="Noticias-encabezado">
@@ -85,6 +94,16 @@ const Noticias = () => {
       </h1>
 
       <div className="contenedor-difucion">
+        <ContenidoNoticia
+          encabezado="Cardinal de DyX | WEB: Version 2.1"
+          fecha="02/05/2025"
+          contenido={
+            "Explora el universo visual de nuestros proyectos 🎥✨"
+            + "\nAhora puedes acceder a los videos de la mayoría de nuestras creaciones. Sumérgete en el video de promoción más reciente, donde abordamos las actualizaciones más importantes, o revisa los videos de presentación de nuestros sistemas Legacy, que muestran su evolución y esencia."
+            + "\nDescubre mucho más que imágenes y descripciones. Vive la experiencia a través de cada detalle."
+
+          }
+        />
       <ContenidoNoticia
           encabezado="Cardinal de DyX | WEB: Versión 2.0"
           fecha="10/10/2024"

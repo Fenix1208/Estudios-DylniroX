@@ -20,6 +20,14 @@ const Aplicacion = (props) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       />
+      {props.video && props.video.trim() !== "" && (
+        <button
+          className="btn-consulta-video"
+          onClick={() => window.open(props.video, "_blank")}
+        >
+          Video más nuevo
+        </button>
+      )}
     </div>
   );
 };
