@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudios-DylniroX/static/css/main.d2e5c0ea.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.50be2ef2.js",
+    "main.css": "/Estudios-DylniroX/static/css/main.3675f266.css",
+    "main.js": "/Estudios-DylniroX/static/js/main.2b5ea87c.js",
     "static/js/453.200db5ff.chunk.js": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js",
     "static/media/CardinalDyXAppDestock.png": "/Estudios-DylniroX/static/media/CardinalDyXAppDestock.5c0ffd7d2491689e4e20.png",
     "static/media/FondoCDWeb2.png": "/Estudios-DylniroX/static/media/FondoCDWeb2.c050ccc80e8c6fdd6436.png",
@@ -31,12 +31,12 @@
     "static/media/MWOWEB.png": "/Estudios-DylniroX/static/media/MWOWEB.a36f2434680c6e333e78.png",
     "static/media/OTSprevWEB.png": "/Estudios-DylniroX/static/media/OTSprevWEB.f7f9231f5e4bc7e3b212.png",
     "index.html": "/Estudios-DylniroX/index.html",
-    "main.d2e5c0ea.css.map": "/Estudios-DylniroX/static/css/main.d2e5c0ea.css.map",
-    "main.50be2ef2.js.map": "/Estudios-DylniroX/static/js/main.50be2ef2.js.map",
+    "main.3675f266.css.map": "/Estudios-DylniroX/static/css/main.3675f266.css.map",
+    "main.2b5ea87c.js.map": "/Estudios-DylniroX/static/js/main.2b5ea87c.js.map",
     "453.200db5ff.chunk.js.map": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2e5c0ea.css",
-    "static/js/main.50be2ef2.js"
+    "static/css/main.3675f266.css",
+    "static/js/main.2b5ea87c.js"
   ]
 }
