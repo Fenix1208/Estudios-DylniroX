@@ -65,7 +65,8 @@ const Muestrario = () => {
       frase: "Nuestro primer gran proyecto..",
       descripcion: "Bienvenido a OblioN Tycons, un software especialmente desarrollado para Invocadores. Como parte del gremio de Invocadores, tu deber es distribuir mercancías por OblioN, lo que beneficia a sus habitantes y a ti. Sin embargo, no todo es tan fácil, y lo veras cuando tus invocaciones se enfrenten a diferentes enemigos en la Colina de las Sombras, donde los contratos colocados por el gremio de invocadores te brindasen de la moneda más valiosa de OblioN, los Fragmentos ARCAICOS. Disfruta de una experiencia tycon, mientras obtienes todas las invocaciones posibles hasta la fecha.",
       empresa: "Estudios Dylnirox™",
-      video: "https://www.youtube.com/watch?v=Vue8JLb-XWU"
+      video: "https://www.youtube.com/watch?v=Vue8JLb-XWU",
+      fecha: "2020"
     },
     {
       background: KoobenI,
@@ -73,7 +74,8 @@ const Muestrario = () => {
       frase: "El antes y despues de nuestras aplicaciones.",
       descripcion: "Gestor de inventario para restaurantes que permite controlar el inventario, tener a la mano las recetas, asignar restricciones a empleados y tener un control sobre las ventas realizadas. Esta aplicación fue desarrollada como proyecto final y evaluada en tres ocasiones. Ahora está disponible de forma gratuita para descargar, probar y puntuar, en la versión mas completa, mejorada, rediseña y optimizada para mejorar la experiencia que KI 1.1.1 ya ofrecía.",
       empresa: "Dylnriox Software™ | K`oóben Software™",
-      video: "https://www.youtube.com/watch?v=hXfWXSUi3hw"
+      video: "https://www.youtube.com/watch?v=hXfWXSUi3hw",
+      fecha: "2021"
     },
     {
       background: OTS,
@@ -82,21 +84,24 @@ const Muestrario = () => {
       descripcion: "Bienvenido a OblioN, la ciudad para invocadores más grande de ArkaNe, aquí podrás trabajar como recolector y comerciante para ganar la mayor cantidad de créditos posibles, o trabajar como invocador combatiendo con las distintas criaturas " +
                     " que el gremio a encontrado a los alrededores de OblioN. Conviértete en un guardián prestigiado o en el mas rico de todo el lugar. ",
       empresa: "Dylnirox Software™",
-      video: "https://www.youtube.com/watch?v=JuiU9EJAMfs"
+      video: "https://www.youtube.com/watch?v=JuiU9EJAMfs",
+      fecha: "2022"
     },
     {
       background: Comienzo,
       encabezado: "2020",
       frase: "Primeros pasos.",
       descripcion: "Todos comenzamos alguna vez en algo que se convierte en más que un pasatiempo. Disfrutamos cada nueva creación y damos vida a nuestras ideas. DylniroX Estudios™ es hoy nuestra marca de presentación, y nuestros sistemas son la imagen que lo viste. Miremos estrellas juntos mientras disfrutamos de lo que más nos gusta hacer.",
-      empresa: "Dylnirox™"
+      empresa: "Dylnirox™",
+      fecha: "2020"
     },
     {
       background: OTNoLanzada,
       encabezado: "OblioN Tycons 2.0",
       frase: "Sistema en el olvido.",
       descripcion: "La versión 2.0 de OT Edición Estándar buscaba dar un giro total en el diseño de la aplicación y mejorar muchos aspectos de la misma. Sin embargo, esta versión nunca llegó a ver la luz y fue reemplazada posteriormente por OTS Edición Reliquia.",
-      empresa: "Estudios Dylnirox™"
+      empresa: "Estudios Dylnirox™",
+      fecha: "2022"
     },
     {
       background: LaEstafaFelis,
@@ -104,14 +109,16 @@ const Muestrario = () => {
       frase: "Proyecto escolar.",
       descripcion: "Aplicación para tiendas que permite la organización, gestión y control del inventario, ofreciendo la posibilidad de realizar pedidos de aquellos productos en escasez de existencias, y de realizar ventas, para aquellos clientes interesados. " +
                     "Cuenta con un sistema de soporte integrado, ventanas flotantes y sistema de notificaciones para la confirmación de transacciones. ",
-      empresa: "Estudios Dylnirox™"
+      empresa: "Estudios Dylnirox™",
+      fecha: "2021"
     },
     {
       background: RiverManufacturing,
       encabezado: "River Manufacturing",
       frase: "Evaluacion de examen.",
       descripcion: "Propuesta de diseño para sistema de rastreo de transportes de carga. Permite localizar la ubicación de los camiones, destinar rutas de trabajo, obtener un historial de rutas y ver estadísticas en función a las operaciones que realiza la empresa.",
-      empresa: "Estudios Dylnirox™"
+      empresa: "Estudios Dylnirox™",
+      fecha: "2021"
     },
     {
       background: EvaSoftware,
@@ -121,7 +128,8 @@ const Muestrario = () => {
                     "con una BD bien estructurada y normalizada, por lo que incluir nuevo contenido afectaba a BD de versiones anteriores. Actualmente este sistema ya no es requerido en la versión mejorada de OT, Oblion Tycons Softwre Edición Reliquia cuenta con una base de " +
                     "datos a la que el mismo sistema actualiza, y donde a su vez, recibió una planificación para prevenir cambios y ofrecer una BD mas estable.",
       empresa: "Estudios Dylnirox™",
-      video: "https://www.youtube.com/watch?v=6RlV3Kfd794"
+      video: "https://www.youtube.com/watch?v=6RlV3Kfd794",
+      fecha: "2022"
     },
     {
       background: MWOWEB,
@@ -132,7 +140,8 @@ const Muestrario = () => {
                     "sitios a los que deseas navegar mediante voz. Este panel administrativo incorpora lo mejor que Estudios Dylnirox™ " +
                     "tenía al momento de desarrollo, innovando con nuevas prácticas de desarrollo junto a interfaces más nutridas y una experiencia de navegación mejorada. ",
       empresa: "Estudios Dylnirox™",
-      video: "https://www.youtube.com/watch?v=Yw8PYJSldsQ"
+      video: "https://www.youtube.com/watch?v=Yw8PYJSldsQ",
+      fecha: "2021"
     },
     {
       background: D5WEB,
@@ -145,7 +154,8 @@ const Muestrario = () => {
                     "así como la posibilidad de entender peticiones más extensas. " +
                     "Hasta la fecha, Estudios Dylnirox™ ha optado por no continuar con su derrollo, sin embargo, puede que en un futuro regrese.",
       empresa:  "Estudios Dylnirox™",
-      video: "https://www.youtube.com/watch?v=nUr7akHY_18"
+      video: "https://www.youtube.com/watch?v=nUr7akHY_18",
+      fecha: "2021"
     }
   ];
 
@@ -157,7 +167,8 @@ const Muestrario = () => {
       descripcion: "Nuestro software echo a la medida para la organización, gestión y control de pedidos. Incluye roles de usuarios, " +
       "personalización de pedidos y control de ventas. ",
       empresa: "Dylnirox Software™",
-      video: "https://www.youtube.com/watch?v=Pzo-yHHz6fE"
+      video: "https://www.youtube.com/watch?v=Pzo-yHHz6fE",
+      fecha: "2023"
     },
     {
       background: Lirix,
@@ -167,7 +178,8 @@ const Muestrario = () => {
                     " y la posibilidad de descargar otros sistemas desde la nube. Un elegante diseño contrastado con colores oscuros e impulsado con aceleración por Hardware hacen de Lirix el proyecto con mejor UI y UX de DylniroX™. Este proyecto ha sido " +
                     " desarrollado por DylniroX Software™ | Azulados y Asociados S.A de C.V.",
       empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V",
-      video: "https://www.youtube.com/watch?v=D1iiwMrxP68"
+      video: "https://www.youtube.com/watch?v=D1iiwMrxP68",
+      fecha: "2023-2024"
     },
     {
       background: LirixDev,
@@ -176,7 +188,8 @@ const Muestrario = () => {
       descripcion:  "El complemento ideal para los desarrolladores que publican sus sistemas en nuestra tienda. Con Lirix Dev™, " +
       "accedes a un entorno con herramientas de administración y control para tus aplicaciones, así como utilidades para estar en constante comunicación con tus clientes.",
       empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V",
-      video: "https://www.youtube.com/watch?v=nxXeYbo8f9E"
+      video: "https://www.youtube.com/watch?v=nxXeYbo8f9E",
+      fecha: "2024"
     },
     {
       background: TT,
@@ -184,7 +197,8 @@ const Muestrario = () => {
       frase: "Camino del pensamiento.",
       descripcion: "¿Sabías que ejercitar la mente recordando cosas importantes es beneficioso? Sin embargo, a veces todos necesitamos un poco de ayuda para no olvidar. Por eso, te presentamos nuestra elegante aplicación de notas. Refrescar tus memorias nunca fue tan sencillo.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
-      video: "https://www.youtube.com/watch?v=XzQ3R_U-hkM"
+      video: "https://www.youtube.com/watch?v=XzQ3R_U-hkM",
+      fecha: "2023"
     },
     {
       background: MN,
@@ -197,17 +211,19 @@ const Muestrario = () => {
                  + " 4. Incluye información relevante sobre los algoritmos."
                  + " MIUN es el sistema que no pudimos completar en su momento, pero hoy lo traemos de vuelta con mejoras significativas y abordando cada uno de los desafíos que se nos complicaron antes.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
-      video: "https://www.youtube.com/watch?v=dGUSlzKtVt8"
+      video: "https://www.youtube.com/watch?v=dGUSlzKtVt8",
+      fecha: "2024"
     },
     {
       background: QuillNote,
       encabezado: "Quill Note",
       frase: "¡Haz que cada idea cobre vida con Quill Note!",
       descripcion: "Quill Note transforma la forma en que plasmas tus ideas, adaptándose a tu estilo con elegancia. Ahora, no solo incorpora todas las funciones de ThoughtTrail™, sino que las amplifica con herramientas que te permiten organizar pensamientos, guardar imágenes y programar recordatorios para que Quill te los presente justo cuando los necesites."
-                + " Llevamos la personalización al siguiente nivel: desde fondos personalizados hasta cambios de tema que redefinen toda la interfaz. Pero eso no es todo - Quill Note ahora viaja contigo entre ordenadores, gracias a la integración con Drive, asegurando que tus notas te acompañen dondequiera que vayas."
+                + " Llevamos la personalización al siguiente nivel: desde fondos personalizados hasta cambios de tema que redefinen toda la interfaz. Pero eso no es todo, Quill Note ahora viaja contigo entre ordenadores, gracias a la integración con Drive, asegurando que tus notas te acompañen dondequiera que vayas."
                 + " Sumérgete en una experiencia envolvente y llena de emoción. ¡Haz que cada idea cobre vida con Quill Note!",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
-      video: "https://www.youtube.com/watch?v=kIST-xa7tQ8"
+      video: "https://www.youtube.com/watch?v=kIST-xa7tQ8",
+      fecha: "2024"
     },
     {
       background: LunaHarmony,
@@ -215,7 +231,8 @@ const Muestrario = () => {
       frase: "Estrellas brillando a tu ritmo.",
       descripcion: "Un widget se une a nuestras filas de sistemas. ¿Que se esta escuchando en tu ordenador? luce tus canciones favoritas y controla desde un panel de opciones sencillo el reproductor de musica.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
-      video: "https://www.youtube.com/shorts/irRPDpoRJNA"
+      video: "https://www.youtube.com/shorts/irRPDpoRJNA",
+      fecha: "2025"
     },
   ];
 
@@ -225,9 +242,10 @@ const Muestrario = () => {
       encabezado: "Quill Note Movil",
       frase: "Simple, sencillo, Quill Movil",
       descripcion: "Ahora puedes disfrutar de nuestro sistema de notas de forma nativa en dispositivos Android, además de la opción de descargarlo vía APK."
-                + "Con una interfaz sencilla y limpia, diseñada por Dylnirox Desing™, podrás gestionar tus ideas de manera óptima y sin complicaciones. La aplicación integra temas predefinidos de tu sistema, ofreciéndote una experiencia visual en modo claro u oscuro para adaptarse a tus preferencias.",
+                + " Con una interfaz sencilla y limpia, diseñada por Dylnirox Desing™, podrás gestionar tus ideas de manera óptima y sin complicaciones. La aplicación integra temas predefinidos de tu sistema, ofreciéndote una experiencia visual en modo claro u oscuro para adaptarse a tus preferencias.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
-      video: "https://www.youtube.com/shorts/etxKFOl34qU"
+      video: "https://www.youtube.com/shorts/etxKFOl34qU",
+      fecha: "2025"
   },
 
   ];
@@ -238,7 +256,9 @@ const Muestrario = () => {
       encabezado: "Portal Lirix™",
       frase: "Los sueños viajan por el aire a oidos de muchos",
       descripcion: "Un entorno combinado con sistemas que se integran tanto en nuestras plataformas de escritorio como en la web. Accede a las novedades en tiempo real sin necesidad de realizar descargas, todo directamente desde la web.",
-      empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V"
+      empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V",
+      video: "https://youtu.be/YwekB1pUVJs?si=Z90rJB6eMN3blP5v&t=555",
+      fecha: "2024"
     }
   ];
 
@@ -253,7 +273,7 @@ const Muestrario = () => {
 
       <div className="contenedor-muestrario">
 
-        <h1 className="encabezado-elegante2">Proyectos en WindowsForms</h1>
+        <h1 className="encabezado-elegante2">Proyectos en WinForms</h1>
 
         <div className="div-seccion">
         {WindosForms.map((app, index) => (
@@ -264,6 +284,7 @@ const Muestrario = () => {
               parrafo={app.frase}
               descripcion={app.descripcion}
               video={app.video}
+              fecha={app.fecha}
             />
           </div>
         ))}
@@ -280,6 +301,7 @@ const Muestrario = () => {
               parrafo={app.frase}
               descripcion={app.descripcion}
               video={app.video}
+              fecha={app.fecha}
             />
           </div>
         ))}
@@ -296,6 +318,7 @@ const Muestrario = () => {
               parrafo={app.frase}
               descripcion={app.descripcion}
               video={app.video}
+              fecha={app.fecha}
             />
           </div>
         ))}
@@ -312,6 +335,7 @@ const Muestrario = () => {
               parrafo={app.frase}
               descripcion={app.descripcion}
               video={app.video}
+              fecha={app.fecha}
             />
           </div>
         ))}

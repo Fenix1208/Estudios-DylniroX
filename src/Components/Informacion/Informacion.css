@@ -5,7 +5,7 @@
   justify-content: center;
   height: 100vh; /* Ocupa toda la altura de la ventana */
   padding-left: 0px; /* Espacio a la izquierda */
-  background: linear-gradient(135deg, #2c3e50, #4ca1af); /* Degradado sutil */
+  background: linear-gradient(135deg, #1a2634, #2e4a5b);
 }
 
 .contenedor-encabezado {

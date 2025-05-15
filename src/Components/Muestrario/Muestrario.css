@@ -1,5 +1,5 @@
 .muestrario-container {
-  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  background: linear-gradient(135deg, #1a2634, #2e4a5b);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,6 +7,7 @@
   text-align: center;
   padding-left: 0px;
   padding: 20px;
+  padding-top: 100px;
 }
 
 .encabezados-container {
@@ -19,7 +20,12 @@
 }
 
 .Encabezado {
-  margin-top: 100px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .Sub-encabezado {

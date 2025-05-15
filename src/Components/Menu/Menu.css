@@ -1,84 +1,165 @@
-/* TopMenu.css */
-
+/* Contenedor del menú */
 .top-menu {
   position: fixed;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  top: 20px;
   left: 50%;
-  top: 0;
-  transform: translate(-50%, 10%);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más suave */
-  opacity: 40%;
-  transition: background-color 0.3s ease;
-  transition: opacity 0.5s ease;
+  transform: translateX(-50%);
   z-index: 1000;
+  background: rgba(26, 38, 52, 0.9); /* Fondo semitransparente, coherente con tarjetas */
+  backdrop-filter: blur(8px); /* Efecto de desenfoque */
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
-.top-menu:hover {
-  opacity: 100%;
+.top-menu {
+  animation: slideDown 0.5s ease-out;
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }
 
+/* Lista de opciones */
 .menu-options {
   display: flex;
-  justify-content: center;
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
+/* Elementos de la lista */
 .menu-options li {
-  margin-right: 40px;
+  margin: 0 5px;
+}
+
+/* Botones del menú */
+.menu-btn {
+  background: none;
+  border: none;
+  color: #e0e7ff; /* Color claro, coherente con la página */
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
-.menu-options li:hover {
-  background-color: #ffffff;
+.menu-btn:hover {
+  background: #4ca1af; /* Color de las tarjetas */
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
-.btnOPC {
-  border-style: none;
-  align-items: center;
-  cursor: pointer;
-  margin: 2px;
-  position: relative;
-  color: transparent;
-  background: linear-gradient(to bottom, #96CEFF, #ececec); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  transition: background 0.5s ease-in-out; 
+.menu-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 161, 175, 0.3); /* Indicador de foco */
 }
 
-.btnOPC:hover {
-  border-style: none;
-  align-items: center;
-  background: linear-gradient(to bottom, #ececec, #96CEFF); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: iluminar 1s infinite;
-  transition: background 0.5s ease-in-out; 
-}
-
-/* Evento */
-.btnOPCG {
-  border-style: none;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 20%;
+/* Botón de hamburguesa (móviles) */
+.menu-toggle {
+  display: none; /* Oculto en escritorio */
+  background: none;
+  border: none;
   padding: 10px;
-  margin: 5px;
-  color: transparent;
-  background: linear-gradient(to right, #0000ff, #232323);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
-.btnOPCG:hover {
-  background: linear-gradient(to right, red, #1E78CE);
-  background-clip: text;
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #e0e7ff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu-icon {
+  position: relative;
+}
+
+.menu-icon::before {
+  position: absolute;
+  top: -8px;
+}
+
+.menu-icon::after {
+  position: absolute;
+  top: 8px;
+}
+
+.menu-options.open .menu-icon {
+  background: transparent;
+}
+
+.menu-options.open .menu-icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.menu-options.open .menu-icon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .top-menu {
+    top: 10px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .menu-options {
+    display: none; /* Oculto por defecto en móviles */
+    flex-direction: column;
+    background: rgba(26, 38, 52, 0.95);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .menu-options.open {
+    display: flex; /* Mostrar cuando está abierto */
+  }
+
+  .menu-options li {
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .menu-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+
+  .menu-toggle {
+    display: block; /* Visible en móviles */
+  }
+}
+
+@media (max-width: 480px) {
+  .top-menu {
+    width: 95%;
+  }
+
+  .menu-btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
 }

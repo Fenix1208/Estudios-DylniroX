@@ -9,7 +9,7 @@
   transition: opacity 0.3s ease;
   z-index: 1000;
   margin: 5px;
-  background: linear-gradient(135deg, #2c3e50, #4ca1af); /* Degradado sutil */
+  background: linear-gradient(135deg, #1a2634, #2e4a5b); 
 }
 
 .top-menu-mobil:hover {

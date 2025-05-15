@@ -15,7 +15,7 @@
 }
 
 .columna-derecha {
-  padding: 5px;
+  padding: 0px;
 }
 
 .encabezado-elegante-Avances {
@@ -29,7 +29,7 @@
 
 .contenido-Avances {
   margin-right: 2%;
-  font-size: 12px;
+  font-size: 10px;
   text-align: right;
   color: #62B6FF;
 }

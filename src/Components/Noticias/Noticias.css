@@ -1,60 +1,174 @@
+/* Contenedor principal */
 .noticias-container {
-  background: linear-gradient(135deg, #2C3E50, #4CA1AF); /* Degradado sutil */
-  padding: 10%;
-  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e2a3c); /* Fondo de la página principal */
+  padding: 40px 20px;
+  padding-top: 100px;
+  min-height: 100vh;
+  color: #e0e7ff; /* Color claro, coherente */
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+/* Estilos generales para secciones */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
   text-align: center;
-  color: #fff;
+  margin: 20px 0 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.img-noticias {
-  border-radius: 10px;
-  height: Auto;
+.section-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #96ceff; /* Color secundario */
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+/* Carrusel */
+.carousel-section {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-image {
   width: 80%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Sombra más suave */
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transition: opacity 0.5s ease;
 }
 
-.img-noticiasDest {
-  border-radius: 10px;
-  height: Auto;
-  width: 100%;
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(26, 38, 52, 0.8); /* Fondo de tarjetas */
+  color: #e0e7ff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.div-contenedor-destacado{
-  color: transparent;
-  background: linear-gradient(to bottom, #96CEFF, #ececec); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.carousel-btn:hover {
+  background: #4ca1af; /* Color de hover */
+  transform: translateY(-50%) scale(1.1);
 }
 
-.Noticias-encabezado {
-  font-size: 20px;
-  text-align: left;
-  margin: 2%;
-  color: #96CEFF; 
+.carousel-btn.prev {
+  left: 10px;
 }
 
+.carousel-btn.next {
+  right: 10px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background: #96ceff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.indicator.active {
+  background: #4ca1af;
+}
+
+/* Contenedor de avances y noticias */
 .contenedor-difucion {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(0, 1fr);
-  margin-left: 2%;
-  margin-right: 2%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+/* Estilos para Avances y ContenidoNoticia (asumiendo que son similares) */
+.contenedor-difucion > * {
+  background: rgba(26, 38, 52, 0.9); /* Fondo de tarjetas */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contenedor-difucion > *:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
   .noticias-container {
     padding: 20px;
   }
 
-  .img-noticias {
-    width: 95%;
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .carousel-image {
+    width: 90%;
+  }
+
+  .carousel-btn {
+    padding: 8px 12px;
+    font-size: 1.2rem;
   }
 
   .contenedor-difucion {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: minmax(0, 1fr); 
+    grid-template-columns: 1fr;
   }
 }
 
+@media (max-width: 480px) {
+  .noticias-container {
+    padding: 15px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .carousel-image {
+    width: 95%;
+  }
+
+  .carousel-btn {
+    padding: 6px 10px;
+    font-size: 1rem;
+  }
+
+  .contenedor-difucion > * {
+    padding: 15px;
+  }
+}
