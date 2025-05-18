@@ -121,7 +121,7 @@ body {
   color: #e0e7ff;
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 0 0 10px;
+  margin: 6px 0 10px;
 }
 
 .destacados-list {
@@ -142,6 +142,7 @@ body {
   padding: 8px 15px;
   border-radius: 6px;
   transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
 }
 
 .destacados-list li:hover {
@@ -187,8 +188,8 @@ body {
   }
 
   .destacados-list {
-    flex-direction: column;
     gap: 10px;
+    margin: 10px;
   }
 
   .destacados-list li {

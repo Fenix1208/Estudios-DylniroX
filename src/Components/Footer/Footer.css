@@ -1,13 +1,19 @@
-.contenedor-footer{
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
-    margin: 20px;
+body{
+    background: linear-gradient(135deg, #1a2634, #2e4a5b); /* Fondo base por si no hay imagen */
+}
+
+.contenedor-footer{    
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: end;
+    background: rgba(26, 38, 52, 1); /* Fondo semitransparente similar al body */
     color: gray;
-    padding: 1%;
-    border-radius: 20px;
-    transition: background 0.6s ease;
-    transition: color 0.5s ease;
+    transition: color 1s;
+}
+
+.contenedor-footer p{
+    margin: 2px;
 }
 
 .contenedor-footer:hover{
@@ -17,6 +23,6 @@
 
 @media (max-width: 600px){
     .contenedor-footer{
-        text-align: center;
+        align-items: center;
     }
 }

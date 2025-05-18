@@ -29,13 +29,11 @@ const Principal = () => {
         </div>
       </div>
       <div className="div-destacados-principal">
-        <h2 className="destacados-title">Destacados</h2>
+        <h2 className="destacados-title">Eventos y destacados</h2>
         <ul className="destacados-list">
-          <li>OblioN Tycons Software™</li>
-          <li>K`oóben Inventario</li>
-          <li>K`aátik Software</li>
-          <li>ThoughtTrail™</li>
-          <li>Cardinal de DyX</li>
+          <li onClick={() => window.open("https://www.youtube.com/watch?v=JIthOKW8ml8", "_blank")}>Software 2023</li>
+          <li onClick={() => window.open("https://www.youtube.com/watch?v=H3zNV-ZfaCc", "_blank")}>Cardinal de DyX Desktop</li>
+          <li onClick={() => window.open("https://www.youtube.com/watch?v=-x1DU84cZ_0", "_blank")}>Software 2024</li>
         </ul>
       </div>
     </div>
