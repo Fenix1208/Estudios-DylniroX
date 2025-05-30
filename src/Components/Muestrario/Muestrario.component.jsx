@@ -66,7 +66,7 @@ const Muestrario = () => {
       descripcion: "Bienvenido a OblioN Tycons, un software especialmente desarrollado para Invocadores. Como parte del gremio de Invocadores, tu deber es distribuir mercancías por OblioN, lo que beneficia a sus habitantes y a ti. Sin embargo, no todo es tan fácil, y lo veras cuando tus invocaciones se enfrenten a diferentes enemigos en la Colina de las Sombras, donde los contratos colocados por el gremio de invocadores te brindasen de la moneda más valiosa de OblioN, los Fragmentos ARCAICOS. Disfruta de una experiencia tycon, mientras obtienes todas las invocaciones posibles hasta la fecha.",
       empresa: "Estudios Dylnirox™",
       video: "https://www.youtube.com/watch?v=Vue8JLb-XWU",
-      fecha: "2020"
+      fecha: "2021"
     },
     {
       background: KoobenI,
@@ -75,7 +75,7 @@ const Muestrario = () => {
       descripcion: "Gestor de inventario para restaurantes que permite controlar el inventario, tener a la mano las recetas, asignar restricciones a empleados y tener un control sobre las ventas realizadas. Esta aplicación fue desarrollada como proyecto final y evaluada en tres ocasiones. Ahora está disponible de forma gratuita para descargar, probar y puntuar, en la versión mas completa, mejorada, rediseña y optimizada para mejorar la experiencia que KI 1.1.1 ya ofrecía.",
       empresa: "Dylnriox Software™ | K`oóben Software™",
       video: "https://www.youtube.com/watch?v=hXfWXSUi3hw",
-      fecha: "2021"
+      fecha: "2022"
     },
     {
       background: OTS,
