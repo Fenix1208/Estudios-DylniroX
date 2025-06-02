@@ -4,11 +4,16 @@
     border-color: #24252D;
     border-style:double;
     margin: 1px;
-    transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease
 }
 
 .contain-contenido-noticias:hover{
+  background-color: #24252D;
   box-shadow: 0px 0px 20px rgb(38, 37, 45);
+}
+
+.contain-contenido-noticias {
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
 }
 
 .encabezado-elegante-Noticias {

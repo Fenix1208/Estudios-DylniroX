@@ -1,66 +1,43 @@
 .top-menu-mobil {
-  position: fixed;
-  left: 0;
+  position: sticky;
   top: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más suave */
-  opacity: 40%;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
-  transition: opacity 0.3s ease;
-  z-index: 1000;
-  margin: 5px;
-  background: linear-gradient(135deg, #1a2634, #2e4a5b); 
-}
-
-.top-menu-mobil:hover {
-  opacity: 100%;
+  z-index: 9999;
+  width: 100%;
+  display: grid;
+  height: auto;
+  background: linear-gradient(135deg, #1a2634, #102735);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .menu-options-mobil {
+  display: grid;
+  grid-row: 2;
+  text-decoration: none;
   list-style: none;
+  width: 100%;
   padding: 0;
-  margin: 1%;
+  margin: 10px 0;
 }
 
-.menu-options-mobil li {
-  padding: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.btnOPC-mobil-main {
+  width: 100%;
+  text-align: center;
+  padding: 14px 10px;
+  background: transparent;
+  border: none;
+  color: gray;
 }
 
 .btnOPC-mobil {
-  border-style: none;
-  text-align: left;
-  background: transparent;
-  cursor: pointer;
-  border-radius: 2%;
-  padding: 10px;
-  margin: 2px;
   width: 100%;
-  color: transparent;
-  background: linear-gradient(to bottom, #96ceff, #ececec);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: background 0.5s ease-in-out;
+  text-align: left;
+  padding: 14px 10px;
+  background: transparent;
+  border: none;
+  color: gray;
 }
 
-
-.btnOPCG-mobil {
-  border-style: none;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 20%;
-  padding: 10px;
-  margin: 5px;
-  color: transparent;
-  background: linear-gradient(to right, #0000ff, #232323);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.btnOPCG-mobil:hover {
-  background: linear-gradient(to right, red, #1e78ce);
-  background-clip: text;
+.btnOPC-mobil:hover{
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

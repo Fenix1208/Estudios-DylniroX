@@ -43,7 +43,7 @@ const Noticias = () => {
       <section className="carousel-section">
         <h1 className="section-title">Mural de destacados</h1>
         <p className="section-subtitle">
-          Explora nuestras últimas novedades visuales
+          Explora nuestras últimas novedades.
         </p>
         <div className="carousel">
           <button

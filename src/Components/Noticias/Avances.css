@@ -1,22 +1,10 @@
-.contain-contenido-Avances {
+.contain-contenido-Avances{
   display: grid;
-  grid-template-columns: 1fr 10%;
-  gap: 1rem; 
-  padding: 10px;
-  border-radius: 10px;
-  border-color: #24252d;
-  border-style: double;
-  margin: 1px;
+  grid-template-rows: auto 100px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-/* Estilos para cada columna  */
-.columna-izquierda {
-  
-}
-
-.columna-derecha {
-  padding: 0px;
-}
 
 .encabezado-elegante-Avances {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -27,11 +15,15 @@
   margin-left: 2%;
 }
 
-.contenido-Avances {
-  margin-right: 2%;
-  font-size: 10px;
-  text-align: right;
-  color: #62B6FF;
+.p-texto-avance {
+  display: grid;
+  grid-row: 1fr;
+  background-color: #24252d;
+  font-size: 12px;
+  text-align: center;
+  color: #62B6FF; 
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .parrafo-contenido-Avances {
@@ -41,8 +33,4 @@
   color: #ececec;
 }
 
-@media (max-width: 600px) {
-  .contain-contenido-Avances {
-    grid-template-columns: 1fr 20%;
-  }
-}
+

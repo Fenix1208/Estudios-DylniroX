@@ -211,7 +211,7 @@ const Muestrario = () => {
                  + " 4. Incluye información relevante sobre los algoritmos."
                  + " MIUN es el sistema que no pudimos completar en su momento, pero hoy lo traemos de vuelta con mejoras significativas y abordando cada uno de los desafíos que se nos complicaron antes.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
-      video: "https://www.youtube.com/watch?v=dGUSlzKtVt8",
+      video: "https://www.youtube.com/watch?v=0tY_V7VvkZ8",
       fecha: "2024"
     },
     {
@@ -231,7 +231,7 @@ const Muestrario = () => {
       frase: "Estrellas brillando a tu ritmo.",
       descripcion: "Un widget se une a nuestras filas de sistemas. ¿Que se esta escuchando en tu ordenador? luce tus canciones favoritas y controla desde un panel de opciones sencillo el reproductor de musica.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
-      video: "https://www.youtube.com/shorts/irRPDpoRJNA",
+      video: "https://www.youtube.com/watch?v=wRNP8cSA4eY",
       fecha: "2025"
     },
   ];

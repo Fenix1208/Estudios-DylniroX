@@ -1,6 +1,6 @@
 /* Contenedor principal */
 .noticias-container {
-  background: linear-gradient(135deg, #0f172a, #1e2a3c); /* Fondo de la página principal */
+  background: linear-gradient(135deg, #1a2634, #2e4a5b);
   padding: 40px 20px;
   padding-top: 100px;
   min-height: 100vh;
@@ -14,7 +14,7 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
-  margin: 20px 0 10px;
+  margin: 40px 0 20px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
