@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      {renderMenu()} {/* Menú siempre visible */}
+      <Menu onPageChange={handlePageChange}/>
       <div className="content">
         {currentPage === 'menu' && <Principal onPageChange={handlePageChange} />}
         {currentPage === 'inicio' && <Principal />}

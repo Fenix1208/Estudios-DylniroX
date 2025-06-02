@@ -9,11 +9,7 @@
 
 
 .seccion-encabezado {
-  color: transparent;
-  background: linear-gradient(to bottom, #96CEFF, #ececec); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f8f8f8;
     top: 0;
 }
 
