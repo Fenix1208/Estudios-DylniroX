@@ -9,12 +9,20 @@
 }
 
 /* Estilos generales para secciones */
-.section-title {
+.section-title-T{
   font-size: 2.5rem;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
   margin: 40px 0 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin: 60px 0 40px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -122,10 +130,11 @@
 @media (max-width: 768px) {
   .noticias-container {
     padding: 20px;
+    margin-top: 15%;
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .section-subtitle {
@@ -138,7 +147,7 @@
 
   .carousel-btn {
     padding: 8px 12px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .contenedor-difucion {
@@ -152,7 +161,8 @@
   }
 
   .section-title {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    margin-bottom: 4px;
   }
 
   .section-subtitle {

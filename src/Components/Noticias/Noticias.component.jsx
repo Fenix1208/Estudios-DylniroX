@@ -41,7 +41,7 @@ const Noticias = () => {
   return (
     <div className="noticias-container">
       <section className="carousel-section">
-        <h1 className="section-title">Mural de destacados</h1>
+        <h1 className="section-title-T">Mural de destacados</h1>
         <p className="section-subtitle">
           Explora nuestras últimas novedades.
         </p>
@@ -122,6 +122,14 @@ const Noticias = () => {
           Últimas transformaciones en el entorno
         </h2>
         <div className="contenedor-difucion">
+          <ContenidoNoticia
+            encabezado="Cardinal de DyX | WEB: Versión 2.3"
+            fecha="21/06/2025"
+            contenido={
+              "Con esta actualización, incorporamos una nueva sección: “.NET Developer”, donde podrás conocer más sobre nuestro desarrollador. \n Aunque la información es resumida, ofrece una visión clara de su perfil y experiencia.\n" +
+              "Además, realizamos mejoras importantes en la adaptabilidad del sitio para dispositivos móviles. Uno de los cambios más notables se encuentra en los encabezados, que ahora se ajustan correctamente en pantallas pequeñas, resolviendo los problemas de visibilidad que presentaban anteriormente.\n"
+            }
+          />
           <ContenidoNoticia
             encabezado="Cardinal de DyX | WEB: Versión 2.2"
             fecha="14/05/2025"

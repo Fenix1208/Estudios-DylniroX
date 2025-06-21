@@ -35,6 +35,15 @@ function Menu({ onPageChange }) {
         <li>
           <button
             className="menu-btn"
+            onClick={() => handlePageChange("rffg")}
+            aria-label="Ir a DEV"
+          >
+            .Net Developer
+          </button>
+        </li>
+        <li>
+          <button
+            className="menu-btn"
             onClick={() => handlePageChange("muestrario")}
             aria-label="Ir a Muestrario"
           >

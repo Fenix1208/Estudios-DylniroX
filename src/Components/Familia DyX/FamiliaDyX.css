@@ -53,6 +53,10 @@
 
 @media (max-width: 600px) {
 
+  .main-page-familia{
+    margin-top: 15%;
+  }
+
   .contenedor-informacion {
     padding: 0px;
   }
