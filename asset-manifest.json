@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudios-DylniroX/static/css/main.81c87e7d.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.7bc614ad.js",
+    "main.css": "/Estudios-DylniroX/static/css/main.b8ab36d2.css",
+    "main.js": "/Estudios-DylniroX/static/js/main.681080c2.js",
     "static/js/453.200db5ff.chunk.js": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js",
     "static/media/CardinalDyXAppDestock.png": "/Estudios-DylniroX/static/media/CardinalDyXAppDestock.5c0ffd7d2491689e4e20.png",
     "static/media/FondoCDWeb2.png": "/Estudios-DylniroX/static/media/FondoCDWeb2.c050ccc80e8c6fdd6436.png",
@@ -33,12 +33,12 @@
     "static/media/BAJA_Audio.png": "/Estudios-DylniroX/static/media/BAJA_Audio.b35dad6730253c07c674.png",
     "static/media/OTSprevWEB.png": "/Estudios-DylniroX/static/media/OTSprevWEB.f7f9231f5e4bc7e3b212.png",
     "index.html": "/Estudios-DylniroX/index.html",
-    "main.81c87e7d.css.map": "/Estudios-DylniroX/static/css/main.81c87e7d.css.map",
-    "main.7bc614ad.js.map": "/Estudios-DylniroX/static/js/main.7bc614ad.js.map",
+    "main.b8ab36d2.css.map": "/Estudios-DylniroX/static/css/main.b8ab36d2.css.map",
+    "main.681080c2.js.map": "/Estudios-DylniroX/static/js/main.681080c2.js.map",
     "453.200db5ff.chunk.js.map": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81c87e7d.css",
-    "static/js/main.7bc614ad.js"
+    "static/css/main.b8ab36d2.css",
+    "static/js/main.681080c2.js"
   ]
 }
