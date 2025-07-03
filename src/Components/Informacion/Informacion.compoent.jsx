@@ -44,7 +44,7 @@ const Informacion = () => {
             {
               title: "Nuestro desarrollador",
               content: `Todos los sistemas presentados en Cardinal de DyX, incluido el sitio web, 
-              han sido desarrollados por Ruben Fabian Figueroa Garcia, estudiante en Ingeniería 
+              han sido desarrollados por Ruben Fabian Figueroa Garcia, egresado de Ingeniería 
               Informática con especialidad en Desarrollo de Software.
               Los sistemas creados en colaboración con otros desarrolladores están
               debidamente etiquetados e incluyen, en su descripción, el nombre del

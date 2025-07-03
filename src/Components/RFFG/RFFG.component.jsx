@@ -6,18 +6,20 @@ const RFFG = () => {
   return (
     <div className="div-content">
       <section className="sec-1">
-        <img src={Fenix}></img>
+        <img src={Fenix} alt="Fenix" />
         <h2>.Net Developer |RFFG|</h2>
       </section>
       <section className="sec-2">
         <h1>Sobre mi</h1>
         <div className="div-sec2-content">
           <p className="sec-2-text1">
-            Soy Rubén Fabián Figueroa García, estudiante de Ingeniería
-            Informática con especialidad en Desarrollo de Software, próximo a
-            graduarme. Mi enfoque profesional está en el desarrollo de
-            aplicaciones de escritorio, aunque también cuento con experiencia en
-            entornos web y móviles.
+            Mi nombre es Rubén Fabián Figueroa García, egresado de la carrera de
+            Ingeniería Informática con especialidad en Desarrollo de Software.
+            Mi trayectoria profesional se ha centrado principalmente en el
+            desarrollo de aplicaciones de escritorio, complementada con
+            experiencia en entornos web y móviles. Me caracterizo por un enfoque
+            orientado a la calidad, la eficiencia y la mejora continua en cada
+            proyecto que emprendo.
           </p>
           <p className="sec-2-text2">
             Trabajo principalmente con C# y .NET, lo que me ha permitido
@@ -32,20 +34,38 @@ const RFFG = () => {
       </section>
       <section className="sec-3">
         <h1>Tecnologías y herramientas</h1>
-        <p>
-          Desarrollo soluciones empleando herramientas modernas y versátiles,
-          tales como:
-          <br /> <br />
-          - Frontend: HTML, CSS, JavaScript, Razor
-          <br /> <br />
-          - UI/UX: XAML, diseño centrado en la experiencia de usuario
-          <br /> <br />
-          - Backend: C# sobre .NET
-          <br /> <br />
-          - Bases de datos: SQL Server, Informix
-          <br /> <br />- Otras habilidades: Conocimientos básicos en
-          estructuración JSON
-        </p>
+        <ul className="tech-list">
+          <li>
+            <strong>Frontend:</strong> HTML, CSS, JavaScript, Razor, React, JSX
+          </li>
+          <li>
+            <strong>UI/UX:</strong> XAML (WPF y MAUI), diseño centrado en la experiencia de usuario
+          </li>
+          <li>
+            <strong>Backend:</strong> C# sobre .NET Framework 4.7.2 y .NET Core
+          </li>
+          <li>
+            <strong>Desarrollo de escritorio:</strong> WPF con C# y XAML (.NET Framework)
+          </li>
+          <li>
+            <strong>Desarrollo móvil:</strong> MAUI con C# y XAML, experiencia previa con React Native
+          </li>
+          <li>
+            <strong>Desarrollo web:</strong> ASP.NET MVC, .NET Core, integración de Razor con HTML, CSS y JS
+          </li>
+          <li>
+            <strong>Bases de datos:</strong> SQL Server, Informix
+          </li>
+          <li>
+            <strong>Otras habilidades:</strong> Estructuración y manejo de archivos JSON
+          </li>
+          <li>
+            <strong>Entornos de desarrollo:</strong> Visual Studio 2019 y 2022, Visual Studio Code
+          </li>
+          <li>
+            <strong>Experiencia adicional:</strong> Breve uso de Eclipse (descartado por preferencia personal)
+          </li>
+        </ul>
       </section>
       <section className="sec-4">
         <h1>Mi muestrario</h1>
@@ -87,7 +107,8 @@ const RFFG = () => {
             Nos especializamos en desarrollo de software para escritorio en
             Windows. Sin embargo, también estamos evolucionando hacia
             plataformas móviles y servicios web, siempre bajo el ecosistema
-            .NET. Por lo que no es ningun problema crear soluciones para diversos entornos.
+            .NET. Por lo que no es ningun problema crear soluciones para
+            diversos entornos.
           </p>
         </div>
         <div>
