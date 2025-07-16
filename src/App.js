@@ -10,6 +10,7 @@ import FamiliaDyX from './Components/Familia DyX/FamiliaDyX.component';
 import Evento from './Components/Eventos/Evento.component';
 import Footer from './Components/Footer/Footer.component';
 import RFFG from './Components/RFFG/RFFG.component';
+import Maya from './Components/BotMaya/Maya';
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -51,6 +52,7 @@ function App() {
       <div className="content">
         {currentPage === 'menu' && <Principal onPageChange={handlePageChange} />}
         {currentPage === 'inicio' && <Principal />}
+        {currentPage === 'maya' && <Maya />}
         {currentPage === 'rffg' && <RFFG/>}
         {currentPage === 'evento' && <Evento />}
         {currentPage === 'muestrario' && <Muestrario />}

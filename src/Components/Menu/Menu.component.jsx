@@ -35,6 +35,15 @@ function Menu({ onPageChange }) {
         <li>
           <button
             className="menu-btn"
+            onClick={() => handlePageChange("maya")}
+            aria-label="Maya IA"
+          >
+            Maya IA
+          </button>
+        </li>
+        <li>
+          <button
+            className="menu-btn"
             onClick={() => handlePageChange("rffg")}
             aria-label="Ir a DEV"
           >

@@ -3,10 +3,10 @@ import "./Noticias.css";
 import ContenidoNoticia from "./ContenidoNoticia.component";
 import Avances from "./Avances.component";
 
-import N1 from "../Noticias Img/NoticiaCD.png";
-import N2 from "../Noticias Img/QuillNoteFamilia.png";
-import N3 from "../Noticias Img/LunaHarmonyNoticia.png";
-import N4 from "../Noticias Img/2_0CardinalDyXWeb.png";
+import N1 from "../Noticias Img/MayaIA.png";
+import N2 from "../Noticias Img/NoticiaCD.png";
+import N3 from "../Noticias Img/QuillNoteFamilia.png";
+import N4 from "../Noticias Img/LunaHarmonyNoticia.png";
 import N5 from "../Noticias Img/PromocionMaya.png";
 
 const images = [
@@ -84,6 +84,15 @@ const Noticias = () => {
         <h2 className="section-title">Avances</h2>
         <div className="contenedor-difucion">
           <Avances
+            encabezado="Conoce a nuestro ChatBot Maya"
+            fecha="16/07/2025"
+            estado="Pruebas"
+            contenido={
+              "Maya ha llegado a Cardinal De DyX como una herramienta innovadora que te ofrece acceso rápido y sencillo a información sobre nuestro estudio, nuestras divisiones de desarrollo y nuestro equipo de desarrolladores. Este chatbot, impulsado por inteligencia artificial, está diseñado para mantener conversaciones fluidas, amigables y sin complicaciones. \n" +
+              "Visita a Maya y obtén la información que necesitas de nuestro sitio de forma más ágil y eficiente."
+            }
+          />
+          <Avances
             encabezado="Actualizacion MAYOR en proceso"
             fecha="14/05/2025"
             estado="Implementación"
@@ -104,15 +113,6 @@ const Noticias = () => {
               "Explora estas novedades en el mural de aplicaciones y lleva tu productividad y experiencia musical al siguiente nivel. ¡No te lo pierdas!"
             }
           />
-          <Avances
-            encabezado="Nueva actualización"
-            fecha="04/01/2025"
-            estado="Demo"
-            contenido={
-              "ThoughtTrail se actualiza a la versión 1.4 recibiendo cambios en su código principal para incluir Quill Note como nuevo sistema heredado. " +
-              "Aprovecha las nuevas características y mejoras en UI y UX en la versión 2.0 de ThoughtTrail y Quill Note disponibles ahora. Descárgalo como socio de software EXCLUSIVO."
-            }
-          />
           
         </div>
       </section>
@@ -122,6 +122,16 @@ const Noticias = () => {
           Últimas transformaciones en el entorno
         </h2>
         <div className="contenedor-difucion">
+          <ContenidoNoticia
+            encabezado="Cardinal de DyX | WEB: Versión 3.0"
+            fecha="16/07/2025"
+            contenido={
+              "¡La versión 3.0 ya está aquí! Y con ella, estrenamos una nueva sección en nuestra barra de opciones: Maya IA. \n\n" +
+              "Maya es nuestro chatbot inteligente que fusiona la experiencia de los chats tradicionales con el poder de la inteligencia artificial. Está diseñada para brindarte asistencia rápida sobre nuestra página web y ofrecerte datos relevantes sobre nuestro estudio.\n" +
+              "Actualmente, Maya se encuentra en fase de entrenamiento, pero ya está disponible para que tú formes parte de su evolución. Solo tienes que interactuar con ella: cuanto más le preguntes, más aprenderá y mejor será su capacidad para ayudarte. \n" +
+              "Maya es un agente Copilot que evoluciona día a día. ¡Visítala y sé parte de su crecimiento!"
+            }
+          />
           <ContenidoNoticia
             encabezado="Cardinal de DyX | WEB: Versión 2.3"
             fecha="21/06/2025"
