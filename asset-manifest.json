@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudios-DylniroX/static/css/main.b8ab36d2.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.681080c2.js",
+    "main.css": "/Estudios-DylniroX/static/css/main.0943c976.css",
+    "main.js": "/Estudios-DylniroX/static/js/main.bfa929d8.js",
     "static/js/453.200db5ff.chunk.js": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js",
     "static/media/CardinalDyXAppDestock.png": "/Estudios-DylniroX/static/media/CardinalDyXAppDestock.5c0ffd7d2491689e4e20.png",
     "static/media/FondoCDWeb2.png": "/Estudios-DylniroX/static/media/FondoCDWeb2.c050ccc80e8c6fdd6436.png",
@@ -12,7 +12,7 @@
     "static/media/ThoughtTrailIcon.png": "/Estudios-DylniroX/static/media/ThoughtTrailIcon.421e226cc34309ecac76.png",
     "static/media/QuillNoteFamilia.png": "/Estudios-DylniroX/static/media/QuillNoteFamilia.27a9ba065396b50f6a4b.png",
     "static/media/OTSWeb.png": "/Estudios-DylniroX/static/media/OTSWeb.52633bcf3058014b9e3d.png",
-    "static/media/2_0CardinalDyXWeb.png": "/Estudios-DylniroX/static/media/2_0CardinalDyXWeb.81549f1b50bfff339f7b.png",
+    "static/media/MayaIA.png": "/Estudios-DylniroX/static/media/MayaIA.f790ea0c983b1e881a5c.png",
     "static/media/NoticiaCD.png": "/Estudios-DylniroX/static/media/NoticiaCD.f08b7b7b215f07a577f7.png",
     "static/media/Fenix.jpeg": "/Estudios-DylniroX/static/media/Fenix.e5871548e20de14142fe.jpeg",
     "static/media/QuillNoteComMovil.png": "/Estudios-DylniroX/static/media/QuillNoteComMovil.31ea90374cfa83fa6f6d.png",
@@ -33,12 +33,12 @@
     "static/media/BAJA_Audio.png": "/Estudios-DylniroX/static/media/BAJA_Audio.b35dad6730253c07c674.png",
     "static/media/OTSprevWEB.png": "/Estudios-DylniroX/static/media/OTSprevWEB.f7f9231f5e4bc7e3b212.png",
     "index.html": "/Estudios-DylniroX/index.html",
-    "main.b8ab36d2.css.map": "/Estudios-DylniroX/static/css/main.b8ab36d2.css.map",
-    "main.681080c2.js.map": "/Estudios-DylniroX/static/js/main.681080c2.js.map",
+    "main.0943c976.css.map": "/Estudios-DylniroX/static/css/main.0943c976.css.map",
+    "main.bfa929d8.js.map": "/Estudios-DylniroX/static/js/main.bfa929d8.js.map",
     "453.200db5ff.chunk.js.map": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8ab36d2.css",
-    "static/js/main.681080c2.js"
+    "static/css/main.0943c976.css",
+    "static/js/main.bfa929d8.js"
   ]
 }
