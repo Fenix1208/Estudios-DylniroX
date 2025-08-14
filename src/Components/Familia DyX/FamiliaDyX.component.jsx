@@ -14,9 +14,9 @@ const FamiliaDyX = () => {
             <h1 className="encabezado-elegante">DylniroX Software™.</h1>
             <p className="parrafo-informacion">
               “Fundado en 2022, Dylnirox software™ es una empresa dedicada al
-              desarrollo de aplicaciones de todo tipo, utilizando C# y XAML como
-              lenguajes de programación para entregar nuevos proyectos
-              cada semestre. Hasta finales de 2023, Dylnirox software se ocupaba
+              desarrollo de aplicaciones de todo tipo, utilizando C# y .Net como
+              las bases fundamentales para entregar nuevos proyectos
+              cada semestre. Hasta finales de 2023, Dylnirox software™ se ocupaba
               tanto del desarrollo como del diseño de las aplicaciones, pero
               desde entonces se ha enfocado solo en la lógica y la codificación
               de los proyectos, delegando el diseño de las interfaces y las
@@ -63,10 +63,10 @@ const FamiliaDyX = () => {
             </p>
             <p className="parrafo-informacion">
               Azulados y Asociados S.A de C.V: El ultimo equipo de trabajo en el que hemos
-              estado, nos permitió la elaboración y entrega de Lirix Store, un
-              software que finalizo con calificación alta y participación en
+              estado, nos permitió la elaboración y entrega del Ecosistema de Lirix, un
+              conjunto de software que finalizo con calificación alta y participación en
               concurso de innovación. Lirix se desarrollo en la nueva plataforma
-              en la que trabaja DyX Software.
+              en la que trabaja DyX Software, en combinacion con desarrollo WEB y Movil.
             </p>
           </div>
         </ul>

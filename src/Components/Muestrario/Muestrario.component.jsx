@@ -61,6 +61,62 @@ const Muestrario = () => {
 
   const WindosForms = [
     {
+      background: Comienzo,
+      encabezado: "2020",
+      frase: "Primeros pasos.",
+      descripcion:
+        "Todos comenzamos alguna vez en algo que se convierte en más que un pasatiempo. Disfrutamos cada nueva creación y damos vida a nuestras ideas. DylniroX Estudios™ es hoy nuestra marca de presentación, y nuestros sistemas son la imagen que lo viste. Miremos estrellas juntos mientras disfrutamos de lo que más nos gusta hacer.",
+      empresa: "Dylnirox™",
+      fecha: "2020",
+    },
+    {
+      background: LaEstafaFelis,
+      encabezado: "La estafa feliz",
+      frase: "Proyecto escolar.",
+      descripcion:
+        "Aplicación para tiendas que permite la organización, gestión y control del inventario, ofreciendo la posibilidad de realizar pedidos de aquellos productos en escasez de existencias, y de realizar ventas, para aquellos clientes interesados. " +
+        "Cuenta con un sistema de soporte integrado, ventanas flotantes y sistema de notificaciones para la confirmación de transacciones. ",
+      empresa: "Estudios Dylnirox™",
+      fecha: "2021",
+    },
+    {
+      background: MWOWEB,
+      encabezado: "Mun Wai ONE",
+      frase: "Panel de control de Valio.",
+      descripcion:
+        "El panel de control de nuestra asistente virtual llega para sustituir el primer panel de configuración lanzado con Maya-D4. Este panel permite controlar, " +
+        "administrar y consultar los comandos de voz y respuestas que nuestra asistente acepta, así como configurar las aplicaciones que deseas abrir o los " +
+        "sitios a los que deseas navegar mediante voz. Este panel administrativo incorpora lo mejor que Estudios Dylnirox™ " +
+        "tenía al momento de desarrollo, innovando con nuevas prácticas de desarrollo junto a interfaces más nutridas y una experiencia de navegación mejorada. ",
+      empresa: "Estudios Dylnirox™",
+      video: "https://www.youtube.com/watch?v=Yw8PYJSldsQ",
+      fecha: "2021",
+    },
+    {
+      background: RiverManufacturing,
+      encabezado: "River Manufacturing",
+      frase: "Evaluacion de examen.",
+      descripcion:
+        "Propuesta de diseño para sistema de rastreo de transportes de carga. Permite localizar la ubicación de los camiones, destinar rutas de trabajo, obtener un historial de rutas y ver estadísticas en función a las operaciones que realiza la empresa.",
+      empresa: "Estudios Dylnirox™",
+      fecha: "2021",
+    },
+    {
+      background: D5WEB,
+      encabezado: "Maya-D5",
+      frase: "Asistente virtual.",
+      descripcion:
+        "La distribución 5 (D5) de nuestra asistente virtual para ordenadores llega con mejoras en la comunicación. " +
+        "Ahora puede aceptar comandos de voz a voz, texto a texto y texto a voz. D5 se desarrolló teniendo en cuenta todo lo " +
+        "aprendido por Estudios Dylnirox™ hasta el momento de desarrollo. Contempla una interfaz más nutrida y una experiencia mejorada, " +
+        "con sistema de silencio, configuración, cambios de plantilla en la interfaz, mejoras en la comunicación y comprensión de palabras, " +
+        "así como la posibilidad de entender peticiones más extensas. " +
+        "Hasta la fecha, Estudios Dylnirox™ ha optado por no continuar con su derrollo, sin embargo, puede que en un futuro regrese.",
+      empresa: "Estudios Dylnirox™",
+      video: "https://www.youtube.com/watch?v=nUr7akHY_18",
+      fecha: "2021",
+    },
+    {
       background: OTclasic,
       encabezado: "OblioN Tycons (Legacy)",
       frase: "Nuestro primer gran proyecto..",
@@ -69,6 +125,27 @@ const Muestrario = () => {
       empresa: "Estudios Dylnirox™",
       video: "https://www.youtube.com/watch?v=Vue8JLb-XWU",
       fecha: "2021",
+    },
+    {
+      background: OTNoLanzada,
+      encabezado: "OblioN Tycons 2.0",
+      frase: "Sistema en el olvido.",
+      descripcion:
+        "La versión 2.0 de OT Edición Estándar buscaba dar un giro total en el diseño de la aplicación y mejorar muchos aspectos de la misma. Sin embargo, esta versión nunca llegó a ver la luz y fue reemplazada posteriormente por OTS Edición Reliquia.",
+      empresa: "Estudios Dylnirox™",
+      fecha: "2022",
+    },
+    {
+      background: EvaSoftware,
+      encabezado: "Eva Software",
+      frase: "Migrador de Base de Datos.",
+      descripcion:
+        "Este sistema es un complemento lanzado por Estudios Dylnirox™ para Oblion Tycons (OT) con la finalidad de poder migrar datos de una base de datos (BD) desactualizada, a una BD acorde a la nueva versión de OT.   Esto, por que en su momento OT no contaba " +
+        "con una BD bien estructurada y normalizada, por lo que incluir nuevo contenido afectaba a BD de versiones anteriores. Actualmente este sistema ya no es requerido en la versión mejorada de OT, Oblion Tycons Softwre Edición Reliquia cuenta con una base de " +
+        "datos a la que el mismo sistema actualiza, y donde a su vez, recibió una planificación para prevenir cambios y ofrecer una BD mas estable.",
+      empresa: "Estudios Dylnirox™",
+      video: "https://www.youtube.com/watch?v=6RlV3Kfd794",
+      fecha: "2022",
     },
     {
       background: KoobenI,
@@ -91,93 +168,15 @@ const Muestrario = () => {
       video: "https://www.youtube.com/watch?v=JuiU9EJAMfs",
       fecha: "2022",
     },
-    {
-      background: Comienzo,
-      encabezado: "2020",
-      frase: "Primeros pasos.",
-      descripcion:
-        "Todos comenzamos alguna vez en algo que se convierte en más que un pasatiempo. Disfrutamos cada nueva creación y damos vida a nuestras ideas. DylniroX Estudios™ es hoy nuestra marca de presentación, y nuestros sistemas son la imagen que lo viste. Miremos estrellas juntos mientras disfrutamos de lo que más nos gusta hacer.",
-      empresa: "Dylnirox™",
-      fecha: "2020",
-    },
-    {
-      background: OTNoLanzada,
-      encabezado: "OblioN Tycons 2.0",
-      frase: "Sistema en el olvido.",
-      descripcion:
-        "La versión 2.0 de OT Edición Estándar buscaba dar un giro total en el diseño de la aplicación y mejorar muchos aspectos de la misma. Sin embargo, esta versión nunca llegó a ver la luz y fue reemplazada posteriormente por OTS Edición Reliquia.",
-      empresa: "Estudios Dylnirox™",
-      fecha: "2022",
-    },
-    {
-      background: LaEstafaFelis,
-      encabezado: "La estafa feliz",
-      frase: "Proyecto escolar.",
-      descripcion:
-        "Aplicación para tiendas que permite la organización, gestión y control del inventario, ofreciendo la posibilidad de realizar pedidos de aquellos productos en escasez de existencias, y de realizar ventas, para aquellos clientes interesados. " +
-        "Cuenta con un sistema de soporte integrado, ventanas flotantes y sistema de notificaciones para la confirmación de transacciones. ",
-      empresa: "Estudios Dylnirox™",
-      fecha: "2021",
-    },
-    {
-      background: RiverManufacturing,
-      encabezado: "River Manufacturing",
-      frase: "Evaluacion de examen.",
-      descripcion:
-        "Propuesta de diseño para sistema de rastreo de transportes de carga. Permite localizar la ubicación de los camiones, destinar rutas de trabajo, obtener un historial de rutas y ver estadísticas en función a las operaciones que realiza la empresa.",
-      empresa: "Estudios Dylnirox™",
-      fecha: "2021",
-    },
-    {
-      background: EvaSoftware,
-      encabezado: "Eva Software",
-      frase: "Migrador de Base de Datos.",
-      descripcion:
-        "Este sistema es un complemento lanzado por Estudios Dylnirox™ para Oblion Tycons (OT) con la finalidad de poder migrar datos de una base de datos (BD) desactualizada, a una BD acorde a la nueva versión de OT.   Esto, por que en su momento OT no contaba " +
-        "con una BD bien estructurada y normalizada, por lo que incluir nuevo contenido afectaba a BD de versiones anteriores. Actualmente este sistema ya no es requerido en la versión mejorada de OT, Oblion Tycons Softwre Edición Reliquia cuenta con una base de " +
-        "datos a la que el mismo sistema actualiza, y donde a su vez, recibió una planificación para prevenir cambios y ofrecer una BD mas estable.",
-      empresa: "Estudios Dylnirox™",
-      video: "https://www.youtube.com/watch?v=6RlV3Kfd794",
-      fecha: "2022",
-    },
-    {
-      background: MWOWEB,
-      encabezado: "Mun Wai ONE",
-      frase: "Panel de control de Valio.",
-      descripcion:
-        "El panel de control de nuestra asistente virtual llega para sustituir el primer panel de configuración lanzado con Maya-D4. Este panel permite controlar, " +
-        "administrar y consultar los comandos de voz y respuestas que nuestra asistente acepta, así como configurar las aplicaciones que deseas abrir o los " +
-        "sitios a los que deseas navegar mediante voz. Este panel administrativo incorpora lo mejor que Estudios Dylnirox™ " +
-        "tenía al momento de desarrollo, innovando con nuevas prácticas de desarrollo junto a interfaces más nutridas y una experiencia de navegación mejorada. ",
-      empresa: "Estudios Dylnirox™",
-      video: "https://www.youtube.com/watch?v=Yw8PYJSldsQ",
-      fecha: "2021",
-    },
-    {
-      background: D5WEB,
-      encabezado: "Maya-D5",
-      frase: "Asistente virtual.",
-      descripcion:
-        "La distribución 5 (D5) de nuestra asistente virtual para ordenadores llega con mejoras en la comunicación. " +
-        "Ahora puede aceptar comandos de voz a voz, texto a texto y texto a voz. D5 se desarrolló teniendo en cuenta todo lo " +
-        "aprendido por Estudios Dylnirox™ hasta el momento de desarrollo. Contempla una interfaz más nutrida y una experiencia mejorada, " +
-        "con sistema de silencio, configuración, cambios de plantilla en la interfaz, mejoras en la comunicación y comprensión de palabras, " +
-        "así como la posibilidad de entender peticiones más extensas. " +
-        "Hasta la fecha, Estudios Dylnirox™ ha optado por no continuar con su derrollo, sin embargo, puede que en un futuro regrese.",
-      empresa: "Estudios Dylnirox™",
-      video: "https://www.youtube.com/watch?v=nUr7akHY_18",
-      fecha: "2021",
-    },
   ];
 
   const WPF = [
     {
       background: Kaatatik,
       encabezado: "K`aátik Software",
-      frase: "Lo nuevo llego a DyX.",
+      frase: "Solución personalizada para la gestión de pedidos.",
       descripcion:
-        "Nuestro software echo a la medida para la organización, gestión y control de pedidos. Incluye roles de usuarios, " +
-        "personalización de pedidos y control de ventas. ",
+        "Nuestro software ha sido diseñado a la medida para optimizar la organización, gestión y control de pedidos. Integra funcionalidades clave como asignación de roles de usuario, personalización de pedidos y seguimiento de ventas. Su interfaz, basada en una paleta de colores pastel y potenciada por aceleración por hardware, ofrece una experiencia visual limpia, armoniosa y ágil, ideal para entornos dinámicos y eficientes.",
       empresa: "Dylnirox Software™",
       video: "https://www.youtube.com/watch?v=Pzo-yHHz6fE",
       fecha: "2023",
@@ -199,8 +198,8 @@ const Muestrario = () => {
       encabezado: "Lirix Developer™",
       frase: "Donde los sueños comienzan.",
       descripcion:
-        "El complemento ideal para los desarrolladores que publican sus sistemas en nuestra tienda. Con Lirix Dev™, " +
-        "accedes a un entorno con herramientas de administración y control para tus aplicaciones, así como utilidades para estar en constante comunicación con tus clientes.",
+      "El complemento ideal para los desarrolladores que publican sus sistemas en nuestra tienda. Con Lirix Dev™, " +
+      "accedes a un entorno con herramientas de administración y control para tus aplicaciones, así como utilidades para estar en constante comunicación con tus clientes.",
       empresa: "Dylnirox Software™ | Azulados y Asociados S.A de C.V",
       video: "https://www.youtube.com/watch?v=nxXeYbo8f9E",
       fecha: "2024",
@@ -218,14 +217,10 @@ const Muestrario = () => {
     {
       background: MN,
       encabezado: "MIUN",
-      frase: "El sucesor llego a Estudios Dylnirox™.",
+      frase: "Simulación avanzada de asignación de memoria.",
       descripcion:
-        "Te presentamos dos potentes simuladores: Round Robin y Round Robin con Prioridad. Estos algoritmos lógicos ahora vienen acompañados por un simulador revolucionario que: " +
-        " 1. Acepta nuevos procesos sin detenerse." +
-        " 2. Incorpora un sistema interactivo de bloqueo." +
-        " 3. Ofrece un código más limpio y optimizado." +
-        " 4. Incluye información relevante sobre los algoritmos." +
-        " MIUN es el sistema que no pudimos completar en su momento, pero hoy lo traemos de vuelta con mejoras significativas y abordando cada uno de los desafíos que se nos complicaron antes.",
+        "MIUN es nuestro software educativo diseñado para simular el proceso de asignación de memoria en sistemas operativos. A diferencia de su versión legacy, MIUN incorpora funcionalidades modernas como la creación de procesos en tiempo de ejecución, un sistema completamente libre de bloqueos y una interacción en tiempo real. Todo esto se integra en una interfaz UI/UX optimizada que permite explorar de manera eficiente el comportamiento de cuatro algoritmos de planificación." +
+        " Una herramienta ideal para estudiantes de programación que buscan comprender, visualizar y experimentar con los fundamentos de la gestión de memoria en entornos operativos.",
       empresa: "Dylnirox Software™ | Dylnirox Desing™",
       video: "https://www.youtube.com/watch?v=0tY_V7VvkZ8",
       fecha: "2024",
