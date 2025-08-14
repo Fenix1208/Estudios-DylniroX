@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Estudios-DylniroX/static/css/main.0943c976.css",
-    "main.js": "/Estudios-DylniroX/static/js/main.bfa929d8.js",
+    "main.js": "/Estudios-DylniroX/static/js/main.cdae1a6c.js",
     "static/js/453.200db5ff.chunk.js": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js",
     "static/media/CardinalDyXAppDestock.png": "/Estudios-DylniroX/static/media/CardinalDyXAppDestock.5c0ffd7d2491689e4e20.png",
     "static/media/FondoCDWeb2.png": "/Estudios-DylniroX/static/media/FondoCDWeb2.c050ccc80e8c6fdd6436.png",
@@ -34,11 +34,11 @@
     "static/media/OTSprevWEB.png": "/Estudios-DylniroX/static/media/OTSprevWEB.f7f9231f5e4bc7e3b212.png",
     "index.html": "/Estudios-DylniroX/index.html",
     "main.0943c976.css.map": "/Estudios-DylniroX/static/css/main.0943c976.css.map",
-    "main.bfa929d8.js.map": "/Estudios-DylniroX/static/js/main.bfa929d8.js.map",
+    "main.cdae1a6c.js.map": "/Estudios-DylniroX/static/js/main.cdae1a6c.js.map",
     "453.200db5ff.chunk.js.map": "/Estudios-DylniroX/static/js/453.200db5ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0943c976.css",
-    "static/js/main.bfa929d8.js"
+    "static/js/main.cdae1a6c.js"
   ]
 }
