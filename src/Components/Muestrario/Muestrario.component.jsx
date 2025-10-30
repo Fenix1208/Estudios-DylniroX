@@ -29,15 +29,25 @@ const Muestrario = () => {
     frase: "",
     descripcion: "",
     desarrollador: "",
+    background: null,
   });
 
   const handleAplicacionClick = (
     encabezado,
     frase,
     descripcion,
-    desarrollador
+    desarrollador,
+    background
   ) => {
-    setInfo({ encabezado, frase, descripcion, desarrollador });
+    // Verificar si background es válido antes de asignar
+    const backgroundUrl = background && (background.default || background);
+    setInfo({
+      encabezado,
+      frase,
+      descripcion,
+      desarrollador,
+      background: backgroundUrl || null, // Asignar null si no hay background válido
+    });
     handleClick();
   };
 
@@ -53,7 +63,6 @@ const Muestrario = () => {
     } else {
       document.body.style.overflow = "auto";
     }
-    // Limpiar el estado cuando el componente se desmonta
     return () => {
       document.body.style.overflow = "auto";
     };
@@ -313,7 +322,8 @@ const Muestrario = () => {
                   app.encabezado,
                   app.frase,
                   app.descripcion,
-                  app.empresa
+                  app.empresa,
+                  app.background
                 )
               }
             >
@@ -341,7 +351,8 @@ const Muestrario = () => {
                   app.encabezado,
                   app.frase,
                   app.descripcion,
-                  app.empresa
+                  app.empresa,
+                  app.background
                 )
               }
             >
@@ -369,7 +380,8 @@ const Muestrario = () => {
                   app.encabezado,
                   app.frase,
                   app.descripcion,
-                  app.empresa
+                  app.empresa,
+                  app.background
                 )
               }
             >
@@ -397,7 +409,8 @@ const Muestrario = () => {
                   app.encabezado,
                   app.frase,
                   app.descripcion,
-                  app.empresa
+                  app.empresa,
+                  app.background
                 )
               }
             >
@@ -427,6 +440,13 @@ const Muestrario = () => {
               <h1>{info.encabezado}</h1>
               <p>{info.frase}</p>
             </div>
+            {info.background && (
+              <img
+                src={info.background}
+                alt={info.encabezado}
+                className="modal-image"
+              />
+            )}
             <div>
               <p className="p-flotante-descripcion">{info.descripcion}</p>
             </div>

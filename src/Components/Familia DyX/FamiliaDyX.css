@@ -1,67 +1,103 @@
 .main-page-familia {
-  background: linear-gradient(135deg, #1a2634, #2e4a5b);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10%;
+  padding: 5% 10%; 
+  min-height: 100vh; 
+  position: relative;
 }
-
 
 .seccion-encabezado {
-  color: #f8f8f8;
-    top: 0;
+  color: #9d968e;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.parrafo-familia{
+.parrafo-familia {
   text-align: center;
-  color: #fff;
+  color: #B2945E;
+  font-size: 1.2rem;
+  margin: 10px 0;
 }
 
 .contenedor-informacion {
-  margin-bottom: 10px;
-  max-width: 700px;
+  display: flex;
+  margin: 0 auto 20px; 
+  align-self: center;
+  width: auto;
+  max-width: 1200px;
+  border-radius: 12px;
+  background: rgba(26, 38, 52, 0.1);
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px 20px 0px;
+  box-sizing: border-box;
 }
 
-.contenedor-inf-DyX{
+.contenedor-inf-DyX {
   border-radius: 10px;
-  padding: 2%;
-  margin-bottom: 2%;
-  row-gap: 4%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgba(26, 38, 52, 0.4); /* Fondo más oscuro para contraste */
+  backdrop-filter: blur(8px); /* Desenfoque más ligero dentro */
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.contenedor-inf-DyXdos{
+.contenedor-inf-DyXdos {
   border-radius: 10px;
-  /*box-shadow: inset 5px 5px 15px gray; SOMBRA INTERIOR */
+  padding: 20px;
+  background: rgba(26, 38, 52, 0.4); /* Fondo consistente */
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .encabezado-elegante {
-  font-size: 20px;
-  color: #96CEFF; /* Blanco o tu color preferido */
-  margin-top: 2%;
+  font-size: 24px; /* Aumentar tamaño para destacar */
+  color: #9d968e;
+  margin-top: 10px;
   text-align: right;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para legibilidad */
 }
 
 .encabezado-elegante span {
-  font-weight: bold; /* Resalta las palabras "C#" y "SQL Server" */
+  font-weight: bold;
 }
 
 .parrafo-informacion {
   color: #ececec;
   text-align: justify;
+  line-height: 1.6; /* Mejorar legibilidad */
+  margin: 10px 0;
+  padding: 0 10px; /* Espaciado interno */
 }
 
 @media (max-width: 600px) {
-
-  .main-page-familia{
+  .main-page-familia {
+    padding: 10px; 
     margin-top: 15%;
   }
 
   .contenedor-informacion {
-    padding: 0px;
+    padding: 20px 30px 20px 0px;
+    min-width: 100%; 
+    backdrop-filter: blur(6px); 
   }
 
-  .contenedor-inf-DyX{
-    padding: 0px;
+  .contenedor-inf-DyX,
+  .contenedor-inf-DyXdos {
+    padding: 10px;
+    backdrop-filter: blur(5px); 
+  }
+
+  .encabezado-elegante {
+    font-size: 20px; 
+    text-align: center; 
+  }
+
+  .parrafo-informacion {
+    padding: 0;
+    font-size: 0.9rem; 
   }
 }

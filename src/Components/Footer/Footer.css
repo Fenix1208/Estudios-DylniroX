@@ -1,28 +1,44 @@
-body{
-    background: linear-gradient(135deg, #1a2634, #2e4a5b); /* Fondo base por si no hay imagen */
+body {
+  margin: 0; /* Mantener márgenes por defecto */
 }
 
-.contenedor-footer{    
-    display: flex;
-    flex-direction: column;
-    padding: 40px 20px;
-    align-items: end;
-    background: rgba(26, 38, 52, 1); /* Fondo semitransparente similar al body */
-    color: gray;
-    transition: color 1s;
+/* Estilo del footer */
+.contenedor-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  align-items: end;
+  color: #a0a0a0; 
+  background: rgba(26, 38, 52, 0.3); 
+  backdrop-filter: blur(2px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+  margin: 0 20px 20px; 
+  box-sizing: border-box;
+  transition: color 1s, box-shadow 0.3s, backdrop-filter 0.3s; 
 }
 
-.contenedor-footer p{
-    margin: 2px;
+.contenedor-footer p {
+  margin: 5px; 
+  font-size: 14px; 
 }
 
-.contenedor-footer:hover{
-    color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más suave */
+.contenedor-footer:hover {
+  color: #ececec; 
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(10px);
 }
 
-@media (max-width: 600px){
-    .contenedor-footer{
-        align-items: center;
-    }
+@media (max-width: 600px) {
+  .contenedor-footer {
+    align-items: center;
+    padding: 20px 10px; /* Reducir padding en móviles */
+    margin: 0 10px 10px; /* Reducir márgenes */
+  }
+
+  .contenedor-footer p {
+    font-size: 12px; /* Reducir tamaño en móviles */
+    margin: 3px; /* Menor margen */
+  }
 }

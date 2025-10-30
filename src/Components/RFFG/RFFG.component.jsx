@@ -1,12 +1,12 @@
 import React from "react";
-import Fenix from "../Img/Fenix.jpeg";
+import Fenix from "../Img/Fenix_2.png";
 import "./RFFG.css";
 
 const RFFG = () => {
   return (
     <div className="div-content">
       <section className="sec-1">
-        <img src={Fenix} alt="Fenix" />
+        <img src={Fenix} alt="Fenix" loading="lazy"/>
         <h2>.Net Developer |RFFG|</h2>
       </section>
       <section className="sec-2">

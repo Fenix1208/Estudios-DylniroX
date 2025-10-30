@@ -86,7 +86,7 @@ const Noticias = () => {
           <Avances
             encabezado="Conoce a nuestro ChatBot Maya"
             fecha="16/07/2025"
-            estado="Pruebas"
+            estado="Finalizado"
             contenido={
               "Maya ha llegado a Cardinal De DyX como una herramienta innovadora que te ofrece acceso rápido y sencillo a información sobre nuestro estudio, nuestras divisiones de desarrollo y nuestro equipo de desarrolladores. Este chatbot, impulsado por inteligencia artificial, está diseñado para mantener conversaciones fluidas, amigables y sin complicaciones. \n" +
               "Visita a Maya y obtén la información que necesitas de nuestro sitio de forma más ágil y eficiente."
@@ -95,7 +95,7 @@ const Noticias = () => {
           <Avances
             encabezado="Actualizacion MAYOR en proceso"
             fecha="14/05/2025"
-            estado="Implementación"
+            estado="Finalizado"
             contenido={
               "Muchas cosas están cambiando, y queremos probarlas con ustedes. \nCardinal de DyX WEB está siendo actualizado en varios de sus apartados, con mejoras que van desde el diseño hasta nuevas características que brindarán una experiencia optimizada en UI y UX. \n" +
               "Realizaremos modificaciones periódicas hasta cubrir todas las vistas del sitio. Así que, si notas que algo no funciona correctamente, no te preocupes, lo solucionaremos de inmediato.\n" +
@@ -105,7 +105,7 @@ const Noticias = () => {
           <Avances
             encabezado="Nuevos Lanzamientos"
             fecha="02/05/2025"
-            estado="Pruebas"
+            estado="Demos"
             contenido={
               "¡Descubre nuestras nuevas creaciones! Hemos lanzado dos innovadores sistemas:\n" +
               "📌 Quill Note, una aplicación intuitiva y elegante para tomar notas, ahora disponible en Android.\n" +
@@ -122,6 +122,25 @@ const Noticias = () => {
           Últimas transformaciones en el entorno
         </h2>
         <div className="contenedor-difucion">
+          <ContenidoNoticia
+              encabezado="Cardinal de DyX | WEB: Versión 3.1 - Mirando estrellas"
+              fecha="29/10/2025"
+              contenido={
+                "¡La versión 3.1 de Cardinal de DyX ha llegado, y con ella, un cielo lleno de estrellas! Estamos emocionados de presentar un rediseño completo de nuestro sitio web, inspirado en nuestra icónica frase 'Mirando estrellas', que ahora cobra vida en cada rincón de la página.\n\n" +
+                "Gracias a un fondo estelar dinámico que ilumina toda la experiencia, combinado con un innovador efecto de cristal en nuestros contenedores, el sitio ofrece una estética futurista y envolvente. Las estrellas brillan suavemente, visibles a través de paneles translúcidos que resguardan el contenido, mientras un leve desenfoque asegura que el texto sea siempre legible. Este diseño no solo refleja nuestra pasión por la innovación, sino que también celebra el trabajo conjunto con nuestro equipo y colaboradores.\n\n" +
+                "Explora las secciones renovadas, como el muestrario de proyectos y la familia DyX, y descubre cómo las estrellas acompañan cada detalle. Esta actualización es el resultado de un esfuerzo constante por evolucionar, y tú puedes ser parte de esta galaxia en crecimiento. ¡Visita el sitio, interactúa con nosotros y sigamos mirando estrellas juntos!"
+              }
+            />
+          <ContenidoNoticia
+            encabezado="Cardinal de DyX | WEB: Versión 3.0"
+            fecha="16/07/2025"
+            contenido={
+              "¡La versión 3.0 ya está aquí! Y con ella, estrenamos una nueva sección en nuestra barra de opciones: Maya IA. \n\n" +
+              "Maya es nuestro chatbot inteligente que fusiona la experiencia de los chats tradicionales con el poder de la inteligencia artificial. Está diseñada para brindarte asistencia rápida sobre nuestra página web y ofrecerte datos relevantes sobre nuestro estudio.\n" +
+              "Actualmente, Maya se encuentra en fase de entrenamiento, pero ya está disponible para que tú formes parte de su evolución. Solo tienes que interactuar con ella: cuanto más le preguntes, más aprenderá y mejor será su capacidad para ayudarte. \n" +
+              "Maya es un agente Copilot que evoluciona día a día. ¡Visítala y sé parte de su crecimiento!"
+            }
+          />
           <ContenidoNoticia
             encabezado="Cardinal de DyX | WEB: Versión 3.0"
             fecha="16/07/2025"

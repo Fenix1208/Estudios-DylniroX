@@ -12,7 +12,7 @@ const Aplicacion = (props) => {
     setShowOverlay(false);
   };
 
-  const hasVideo = props.video && props.video.trim() !== ""; // Validación de video
+  const hasVideo = props.video && props.video.trim() !== "";
 
   return (
     <div className="contenedor-general-apps">
@@ -21,7 +21,7 @@ const Aplicacion = (props) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <img src={props.background} alt={props.alt || "Aplicación"} />
+        <img src={props.background} alt={props.alt || "Aplicación"} loading="lazy"/>
         {showOverlay && (
           <div className="overlay">
             <div className="data-container">

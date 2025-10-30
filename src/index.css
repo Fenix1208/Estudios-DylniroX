@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* Evitar barras de desplazamiento horizontales */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Estilos para el fondo de estrellas */
+.starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Debajo de todo el contenido */
+}
+
+/* Overlay para oscurecer el fondo y mejorar legibilidad */
+.overlay-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Opacidad ajustada para que las estrellas sean visibles */
+  z-index: 1;
+}
+
+/* Contenedor para el contenido de la aplicación */
+.app-content {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh; /* Asegurar que ocupe toda la altura de la pantalla */
 }

@@ -1,19 +1,21 @@
 /* Contenedor principal */
 .contenedor-general-apps {
-  background: linear-gradient(135deg, #1a2634, #2e4a5b); 
+  background: rgba(26, 38, 52, 0.2); /* Fondo semi-transparente para efecto cristal */
+  backdrop-filter: blur(10px); /* Desenfoque para el efecto de vidrio */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde sutil */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
   padding: 16px;
   margin: 10px;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 340px; 
+  max-width: 340px;
   width: 100%;
   box-sizing: border-box;
 }
 
 .contenedor-general-apps:hover {
-  transform: translateY(-4px); 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
 }
 
 /* Contenedor de la imagen */
@@ -39,13 +41,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.75); 
+  background: rgba(0, 0, 0, 0.5); /* Fondo más ligero para el overlay */
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .image-container:hover .overlay {
@@ -53,32 +55,34 @@
 }
 
 .image-container:hover img {
-  filter: brightness(0.7); 
+  filter: brightness(0.7);
 }
 
 /* Contenedor de datos dentro del overlay */
 .data-container {
   text-align: center;
   padding: 16px;
-  background: rgba(255, 255, 255, 0.1); 
+  background: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+  backdrop-filter: blur(6px); /* Desenfoque más ligero para el overlay */
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 6px;
-  backdrop-filter: blur(4px); 
 }
 
 /* Estilo de la fecha */
 .fecha {
-  color: #e0e7ff; 
+  color: #e0e7ff;
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); 
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Botón de video */
 .btn-consulta-video {
-  background: #2c3e50;
-  color: #4ca1af;
-  border: none;
+  background: rgba(44, 62, 80, 0.2); /* Fondo cristal para el botón */
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #9d968e;
   border-radius: 8px;
   padding: 10px;
   width: 100%;
@@ -89,26 +93,15 @@
   transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
-.btn-consulta-video:hover {
-  background: #4ca1af;
-  color: #ffffff;
-  transform: scale(1.02); 
-}
-
-.btn-consulta-video:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(76, 161, 175, 0.3); 
-}
-
 .btn-consulta-video:hover:not(:disabled) {
-  background: #4ca1af;
+  box-shadow: 0px 0px 20px rgb(38, 37, 45);; /* Indicador de foco */
   color: #ffffff;
   transform: scale(1.02);
 }
 
 .btn-consulta-video:disabled {
-  background: #4b5e6d; 
-  color: #a3bffa; 
+  background: rgba(75, 94, 109, 0.2);
+  color: #9d968e;
   cursor: not-allowed;
   opacity: 0.7;
 }
@@ -124,6 +117,7 @@
     max-width: 100%;
     margin: 8px;
     padding: 12px;
+    backdrop-filter: blur(8px); /* Reducir desenfoque en pantallas pequeñas */
   }
 
   .fecha {
@@ -133,5 +127,10 @@
   .btn-consulta-video {
     padding: 8px;
     font-size: 0.85rem;
+    backdrop-filter: blur(6px); /* Reducir desenfoque */
+  }
+
+  .data-container {
+    backdrop-filter: blur(4px); /* Reducir desenfoque en el overlay */
   }
 }

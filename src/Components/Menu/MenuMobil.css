@@ -5,8 +5,10 @@
   width: 100%;
   display: grid;
   height: auto;
-  background: linear-gradient(135deg, #1a2634, #102735);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: rgba(26, 38, 52, 0.2); 
+  backdrop-filter: blur(2px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
 }
 
 .menu-options-mobil {

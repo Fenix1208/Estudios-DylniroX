@@ -4,7 +4,10 @@
   width: 100%;
   display: flex;
   border-radius: 10px;
-  box-shadow: 1px 1px 15px black;
+  background: rgba(26, 38, 52, 0.2); /* Fondo semi-transparente para efecto cristal */
+  backdrop-filter: blur(2px); /* Desenfoque para el efecto de vidrio */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde sutil */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .izquierda {
@@ -13,7 +16,7 @@
   text-align: center;
   align-items: center;
   margin-left: 4%;
-  color: #96CEFF;
+  color: #9d968e;
 }
 
 .derecha {
